@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>
+	会员注册-易卖商城
+</title><link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/2018-01-26_170103.png"/>
+    <script language="javascript" type="text/javascript" src="js/jquery-1.js"></script>
+    <script language="javascript" type="text/javascript" src="js/fun.js"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="RegVerify.aspx" id="form1">
+<div>
+</div>
+    <div class="topDiv" id="top_2014">
+        <div class="wal">
+             <div class="fl">
+                <div class="box_yzb"></div>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li id="LoginName">您好<span id="labMemberName" style="color:Red;">jiale</span>,欢迎来到易卖商城！
+                        <a id="lkbLogout" class="red" href="javascript:__doPostBack('lkbLogout','')">退出</a>
+                    </li>
+                    <li><a href="#" target="_blank" title="每日签到">每日签到</a></li>
+                    <li><a href="#" target="_blank" title="我的订单">我的订单</a></li>
+                    <li><a href="#" title="发货通知" target="_blank">发货通知</a></li>
+                    <li><a href="#" target="_blank" title="帮助中心">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="fhsz-top-banner">
+        <div class="banner">
+            <a href="#" title="捷信小额现金贷">
+                <img src="zhuce_img/js1.jpg" style="width: 100%;"></a>
+        </div>
+    </div>
+    <div class="loginHeadDiv" style="border: 0px;">
+        <div class="wal">
+            <a href="index.html" class="logo" title="易卖商城">
+                <img src="zhuce_img/logo.gif" alt="易卖商城"></a>
+            <div class="name">
+                用户注册</div>
+        </div>
+    </div>
+    <div class="wal">
+        <!--wal-->
+        <div class="regStep regStep2">
+        </div>
+        <div class="regDiv">
+            <div class="fl formDiv">
+                <ul>
+                    <li id="VerEmail" class="li_01" style="display: list-item;">
+                        <div class="name">
+                            您的邮箱地址</div>
+                        <input name="" class="input1" id="MemberEmail" placeholder="邮箱地址" title="邮箱地址" type="text">
+                        <input id="SendEmail" class="f1 btn2" value="获取验证码" type="button">
+                        <div class="fl btn">
+                            <a href="javascript:;" class="blue" title="我想用手机验证">我想用手机验证</a></div>
+                        <div class="h10">
+                        </div>
+                        <div class="formTips" id="EmailTip">
+                            邮箱验证可方便您以后接收订单、找回密码等</div>
+                        <span class="clear"></span>
+                        <img src="zhuce_img/loginIco4.png" class="ico">
+                    </li>
+                    <li id="VerMobile" class="li_01" style="display: none;">
+                        <div class="name">
+                            您的手机号码</div>
+                        <input name="" class="input1" id="MemberMobile" placeholder="手机号码" title="手机号码" type="text">
+                        <input id="SendEmail2" class="f1 btn2" value="获取验证码" type="button">
+                        <div class="fl btn">
+                            <a href="javascript:;" class="blue" title="我想用邮箱验证">我想用邮箱验证</a></div>
+                        <div class="h10">
+                        </div>
+                        <div class="formTips" id="MobileTip">
+                            手机号码可方便您以后接收订单、找回密码等</div>
+                        <span class="clear"></span>
+                        <img src="zhuce_img/loginIco3.png" class="ico">
+                    </li>
+                    <li>
+                        <div class="name">
+                            验证码</div>
+                        <input name="" id="VerifyCode" class="input1" placeholder="验证码" title="验证码" type="text">
+                        <div class="formTips" id="CodeTip">
+                            请填写验证码</div>
+                    </li>
+                    <li>
+                        <input name="" id="btnSumbit" style="cursor: pointer;" class="btn1" value="提交验证" onclick="OnSumbit();" type="button">
+                        <a href="zhuce3.html" style="text-decoration: underline; padding-left: 10px;" title="暂不验证，下一步">
+                            暂不验证，下一步</a> </li>
+                </ul>
+            </div>
+            <div class="fr regTel" id="Register_Ad">
+                <img src="zhuce_img/1.jpg" alt="">
+            </div>
+            <span class="clear_f"></span>
+        </div>
+        <!--walEnd-->
+    </div>
+    <div class="h40">
+    </div>
+    <div class="loginFoot">
+        <div class="div0">
+            Copyright © 2001-2016 易卖手机 版权所有 苏ICP备08009749号
+            
+        </div>
+        <img src="zhuce_img/limg95.jpg" alt="">
+        <img src="zhuce_img/limg93.jpg" alt="">
+        <img src="zhuce_img/limg112.jpg" alt="">
+        <img src="zhuce_img/limg112_1.jpg" alt="">
+    </div>   
+    <input name="hidMailCode" id="hidMailCode" value="0" type="hidden">
+    <input name="hidMobileCode" id="hidMobileCode" value="0" type="hidden">
+    <script type="text/javascript">
+        var VerType = 1;
+        $(function () {
+            $("#VerEmail .blue").click(function () {
+                $("#VerEmail").hide();
+                $("#VerMobile").slideDown('flow');
+                VerType = 2;
+            });
+            $("#VerMobile .blue").click(function () {
+                $("#VerMobile").hide();
+                $("#VerEmail").slideDown('flow');
+                VerType = 1;
+            });
+            $("#MemberEmail").blur(function () {
+                var p = $(this).val();
+                if (!ValiEmail(p)) {
+                    $(this).addClass("inputError");
+                    $("#EmailTip").addClass("formTipsError");
+                    $("#EmailTip").show().text("请输入正确的邮箱地址！");
+                } else {
+                    $(this).addClass("input_hover");
+                    $("#EmailTip").hide();
+                }
+            });
+            $("#MemberEmail").focus(function () {
+                $(this).removeClass("inputError");
+                $("#EmailTip").show().removeClass("formTipsError").text("邮箱验证可方便您以后接收订单、找回密码等 ！");
+            });
+            $("#MemberMobile").focus(function () {
+                $(this).removeClass("inputError");
+                $("#MobileTip").show().removeClass("formTipsError").text("手机号码可方便您以后接收订单、找回密码等 ！");
+            });
+            $("#SendEmail").click(function () {
+                var Email = $("#MemberEmail").val();
+                if (ValiEmail(Email)) {
+                    var code = MathRand();
+                    $("#hidMailCode").val(code);
+                    SetTime($(this), $("#hidMobileCode"));
+                    //发送邮件
+                    var memberName = $("#labMemberName").text();
+                    MemberAjax.SendEmailVerify(Email, code, memberName);
+
+                } else {
+                    $(this).addClass("inputError");
+                    $("#EmailTip").addClass("formTipsError").show().text("请输入正确的邮箱地址！");
+                }
+            });
+            $("#SendEmail2").click(function () {
+                var Mobile = $("#MemberMobile").val();
+                if (ValiMobile(Mobile)) {
+                    var code = MathRand();
+                    $("#hidMobileCode").val(code);
+                    SetTime($(this), $("#hidMobileCode"));
+                    //发送手机验证码
+                    var memberName = $("#labMemberName").text();
+                    MemberAjax.SendMobileVerify(Mobile, code, memberName);
+                } else {
+                    $(this).addClass("inputError");
+                    $("#MobileTip").addClass("formTipsError").show().text("请输入正确的手机号码！");
+                }
+            });
+        })
+
+        function OnSumbit() {
+            var memberName = $("#labMemberName").text();
+            var Email = $("#MemberEmail").val();
+            var Mobile = $("#MemberMobile").val();
+            var VerifyCode = $("#VerifyCode").val();
+            if (VerifyCode == $("#hidMailCode").val()) {
+                MemberAjax.VerifySuccess("", Email, memberName);
+                location.href = "Regsucc.aspx";
+            }
+            if (VerifyCode == $("#hidMobileCode").val()) {                
+                MemberAjax.VerifySuccess(Mobile, "", memberName);
+                location.href = "Regsucc.aspx";
+            }
+            $("#CodeTip").show().addClass("formTipsError").text("验证码输入不正确!");
+        }
+        function ValiMobile(mobile) {
+            var patrn = /(^0{0,1}1[3|4|5|6|7|8|9][0-9]{9}$)/;
+            if (patrn.exec(mobile))
+                return true;
+            else
+                return false;
+        }
+        function ValiEmail(email) {
+            var patrn = /^[0-9a-z-A-Z]+@([0-9a-z]+.)+[a-z]{2,3}$/; //[0-9a-z-]
+            if (patrn.exec(email))
+                return true;
+            else
+                return false;
+        }
+        function MathRand() {
+            var Num = "";
+            for (var i = 0; i < 6; i++) {
+                Num += Math.floor(Math.random() * 10);
+            }
+            return Num;
+        }
+
+        var countdown = 120;
+        function SetTime(src, codeSource) {
+            if (countdown == 0) {
+                src.attr("disabled", false);
+                //                $("#VerifyCode").attr("disabled", true);
+                src.attr("value", "发送验证码");
+                countdown = 120;
+                codeSource.val("0");
+            } else {
+                src.attr("disabled", true);
+                //                $("#VerifyCode").attr("disabled", false);
+                src.attr("value", "重新发送(" + countdown + ")");
+                countdown--;
+            }
+            setTimeout(function () {
+                SetTime(src)
+            }, 1000)
+        } 
+    </script>
+    </form>
+
+
+</body></html>

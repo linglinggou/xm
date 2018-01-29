@@ -1,0 +1,1360 @@
+body {
+	margin: 0px; padding: 0px; color: rgb(102, 102, 102); font-size: 12px; font-family:"microsoft yahei";
+}
+a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a:active {
+	
+}
+img {
+	border: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(204, 0, 0); text-decoration: none;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+li {
+	list-style-type: none; list-style-position: outside;
+}
+h1 {
+	margin: 0px; padding: 0px; font-size: 14px;
+}
+h2 {
+	margin: 0px; padding: 0px; font-size: 14px;
+}
+h3 {
+	margin: 0px; padding: 0px; font-size: 14px;
+}
+h4 {
+	margin: 0px; padding: 0px; font-size: 14px;
+}
+h5 {
+	margin: 0px; padding: 0px; font-size: 14px;
+}
+h1 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 12px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear_f {
+	margin: 0px; padding: 0px; height: 0px; clear: both; display: block; _display: inherit;
+}
+.h10 {
+	height: 10px; overflow: hidden; clear: both;
+}
+.h20 {
+	height: 20px; overflow: hidden; clear: both;
+}
+.h15 {
+	height: 15px; overflow: hidden; clear: both;
+}
+.h30 {
+	height: 30px; overflow: hidden; clear: both;
+}
+.h40 {
+	height: 40px; overflow: hidden; clear: both;
+}
+input {
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+textarea {
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+.w201 {
+	width: 201px; overflow: hidden;
+}
+.w888 {
+	width: 888px; overflow: hidden;
+}
+.w889 {
+	width: 889px; overflow: hidden;
+}
+.w867 {
+	width: 867px; overflow: hidden;
+}
+.w898 {
+	width: 898px; overflow: hidden;
+}
+.w861 {
+	width: 861px; overflow: hidden;
+}
+.w238 {
+	width: 238px; overflow: hidden;
+}
+.w745 {
+	width: 745px; overflow: hidden;
+}
+.w345 {
+	width: 345px; overflow: hidden;
+}
+.w749 {
+	width: 749px; overflow: hidden;
+}
+.w342 {
+	width: 342px; overflow: hidden;
+}
+.w159 {
+	width: 159px; overflow: hidden;
+}
+.w933 {
+	width: 930px; overflow: hidden;
+}
+.wal {
+	margin: 0px auto; width: 1099px;
+}
+.item {
+	position: relative; z-index: 99999;
+}
+.red {
+	color: rgb(207, 28, 0); overflow: hidden; -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+.green {
+	color: rgb(0, 140, 20);
+}
+.Orange {
+	color: rgb(220, 69, 0);
+}
+.Orange2 {
+	color: rgb(255, 147, 54);
+}
+.blue {
+	color: rgb(0, 51, 153);
+}
+.font13 {
+	font-size: 13px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16 {
+	font-size: 16px;
+}
+.gray {
+	color: rgb(153, 153, 153);
+}
+.btn1 {
+	cursor: pointer;
+}
+.name {
+	overflow: hidden; -ms-word-break: break-all; -ms-word-wrap: break-word; min-height: 1.5em; max-height: 2.7em;
+}
+.topDiv {
+	 height: 29px; line-height: 29px; overflow: hidden;
+}
+.topDiv .fl {
+	left: -15px; position: relative;
+}
+.topDiv li {
+	background: url("../image/topLine.gif") no-repeat right; padding: 0px 17px 0px 15px; height: 29px; overflow: hidden; float: left;
+}
+.topDiv a:hover {
+	text-decoration: underline;
+}
+.Collection {
+	background: url("../image/Collection.gif") no-repeat left top; height: 29px; padding-left: 28px; float: left; display: block;
+}
+.headDiv {
+	height: 120px; overflow: hidden; position: relative;
+}
+.headDiv .logo {
+	left: 0px; top: 13px; position: absolute; z-index: 10;
+}
+.topSearch {
+	background: url("../images/sea.jpg") no-repeat 0px 0px; left: 360px; top: 46px; width: 457px; height: 60px; overflow: hidden; position: absolute; z-index: 10;
+}
+.topSearch .input1 {
+	background: none; padding: 0px 10px 0px 32px; border: none; width: 312px; height: 38px; color: rgb(153, 153, 153); line-height: 38px; float: left;
+}
+.topSearch .btn1 {
+	background: none; border: none; width: 81px; height: 34px; float: left; cursor: pointer;
+}
+.topSearch .keyWord {
+	line-height: 26px; padding-left: 5px; clear: both;
+}
+.topSearch .keyWord a {
+	padding: 0px 5px;
+}
+.headDiv .btn {
+	top: 46px; right: 0px; position: absolute; z-index: 10;
+}
+.headDiv .btn a {
+	background: url("../images/gwc.jpg") repeat-x top; width:144px; height: 38px; line-height: 38px; overflow: hidden; margin-left: 4px; float: left; display: block;
+}
+.headDiv .btn a:hover {
+
+}
+.headDiv .btn img {
+	top: 6px; margin-right: 9px; float: left; position: relative;
+}
+.headDiv .btn b {
+	color:#fff;
+	position:relative;
+	left:114px;
+}
+
+	
+.nav {
+	height: 40px; line-height: 40px; z-index: 99999; border-bottom:2px #1e99db solid;
+	
+}
+.nav .wal {
+	height: 40px;
+}
+.nav .classA {
+	background: url("../images/menutitle.png") #1e99db no-repeat left center; width: 163px; height: 40px; color: #fff; overflow: hidden; padding-left: 38px; display: block;
+}
+.menu a {
+	height: 40px; overflow: hidden; font-size: 14px; float: left; display: block; white-space: nowrap;
+}
+.menu {
+	z-index: 9999;
+}
+.menu li {
+	padding-right: 1px; float: left;
+}
+.menu li a {
+	padding: 0px 22px; color:#333;
+}
+.menu li a:hover {
+	color: #e77817;
+}
+.menu li .aNow {
+	color: #e77817;
+}
+.sz-subnav-container {
+	margin: 0px auto; width: 1099px; height: 0px; position: relative; z-index: 11111;
+}
+.lnax-container {
+	position: relative;
+}
+.lnax-affix-active {
+	
+}
+.navIco {
+	left: -200px; top: 133px; position: absolute; z-index: 10;
+}
+#classLayer {
+	background: url("../image/bg.gif"); left: 83px; width: 200px; display: none; position: absolute; z-index: 30; min-height: 150px; _height: 150px;
+}
+.classLayerL {
+	background: url("../image/classLayer.gif") repeat-y left; width: 202px; overflow: hidden; float: left; position: relative; z-index: 25;
+}
+.classLayerL li {
+	padding: 14px 0px 14px 35px; width: 165px; height: 17px; color: rgb(134, 134, 134); overflow: hidden; border-bottom-color: rgb(243, 243, 243); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative;
+}
+.classLayerL .liNow {
+	background: rgb(255, 255, 255); border-width: 2px 0px 2px 2px; border-style: solid none solid solid; border-color: #1e99db; padding: 12px 2px 13px 33px; border-image: none;
+}
+.classLayerL .liNow .ico {
+	left: 11px; top: 14px;
+}
+.classLayerL a {
+	color: rgb(134, 134, 134);
+}
+.classLayerL a:hover {
+	color: rgb(207, 28, 0);
+}
+.classLayerL .li_01 {
+	height: 102px; overflow: hidden;
+}
+.classLayerL .ico {
+	left: 13px; top: 16px; position: absolute; z-index: 21;
+}
+.classLayerL h2 {
+	padding-bottom: 14px;
+}
+.classLayerL h2 a {
+	color: rgb(224, 91, 30);
+}
+.classLayerL .content {
+	line-height: 24px;
+}
+.classLayerR {
+	background: url("../image/classLayerR.gif") repeat-y left rgb(255, 255, 255); border: 2px solid #1e99db; border-image: none; left: -2px; width: 620px; float: left; display: none; position: relative; z-index: 21; min-height: 403px; box-shadow: 3px 1px 6px #111; _height: 403px; -webkit-box-shadow: 3px 1px 6px #111; -moz-box-shadow: 3px 1px 6px #111;
+}
+.classLayerR .list {
+	width: 417px; overflow: hidden; padding-left: 14px;
+}
+.classLayerR .list li {
+	width: 417px; line-height: 22px; border-bottom-color: rgb(243, 243, 243); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative; min-height: 44px; _height: 44px;
+}
+.classLayerR .list .name {
+	left: 0px; top: 12px; color: rgb(238, 132, 64); white-space: nowrap; position: absolute; z-index: 10;
+}
+.classLayerR .list .content {
+	padding: 12px 0px 12px 55px;
+}
+.classLayerR .list .content a {
+	color: rgb(102, 102, 102); line-height: 25px; margin-right: 15px;
+}
+.classLayerR .fr {
+	width: 174px; overflow: hidden;
+}
+.classLayerR .list1 {
+	padding: 12px 0px 0px 12px;
+}
+.classLayerR .list1 .name {
+	height: 22px; overflow: hidden;
+}
+.classLayerR .list1 .bg {
+	width: 152px; margin-bottom: 3px; border-top-color: rgb(243, 243, 243); border-left-color: rgb(243, 243, 243); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; min-height: 100px; _height: 100px;
+}
+.classLayerR .list1 li {
+	width: 75px; height: 47px; overflow: hidden; border-right-color: rgb(243, 243, 243); border-bottom-color: rgb(243, 243, 243); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+#classLayer2 {
+	background: url("../image/bg.gif"); left: 83px; width: 200px; display: none; position: absolute; z-index: 20; min-height: 200px; _height: 200px;
+}
+.classLayerL2 {
+	background: url("../image/classLayer2.gif") repeat-y left; width: 201px; overflow: hidden; border-bottom-color: rgb(255, 147, 53); border-bottom-width: 2px; border-bottom-style: solid; float: left; position: relative; z-index: 25;
+}
+.classLayerL2 li {
+	background: url("../image/classLayer2Ico.gif") no-repeat 180px; padding: 0px 15px 0px 30px; left: 2px; width: 152px; height: 79px; color: rgb(134, 134, 134); overflow: hidden; border-bottom-color: rgb(247, 215, 200); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative;
+}
+.classLayerL2 .liNow {
+	background: rgb(255, 255, 255); border-width: 2px 0px 2px 2px; border-style: solid none solid solid; border-color: rgb(255, 147, 53); border-image: none; left: 0px; top: -2px; width: 154px; height: 76px;
+}
+.classLayerL2 a {
+	color: rgb(134, 134, 134);
+}
+.classLayerL2 a:hover {
+	color: rgb(207, 28, 0);
+}
+.classLayerL2 h2 a {
+	color: rgb(207, 28, 0);
+}
+.classLayerL2 .ico {
+	left: 7px; top: 10px; position: absolute; z-index: 21;
+}
+.classLayerL2 h2 {
+	padding: 8px 0px; color: rgb(207, 28, 0);
+}
+.classLayerL2 .content {
+	line-height: 18px;
+}
+.classLayerL2 .content a {
+	line-height: 20px; margin-right: 6px;
+}
+.classLayerR2 {
+	background: rgb(255, 255, 255); border: 2px solid rgb(255, 147, 53); border-image: none; left: -2px; top: -2px; width: 600px; float: left; display: none; position: relative; z-index: 21; min-height: 100px; box-shadow: 3px 1px 6px #111; _height: 100px; -webkit-box-shadow: 3px 1px 6px #111; -moz-box-shadow: 3px 1px 6px #111;
+}
+.classLayerR2 .list {
+	padding: 0px 10px; width: 580px; overflow: hidden;
+}
+.classLayerR2 .list li {
+	width: 580px; line-height: 22px; border-bottom-color: rgb(243, 243, 243); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative; min-height: 44px; _height: 44px;
+}
+.classLayerR2 .list .name {
+	left: 0px; top: 12px; color: rgb(61, 126, 216); white-space: nowrap; position: absolute; z-index: 10;
+}
+.classLayerR2 .list a:hover {
+	color: rgb(61, 126, 216);
+}
+.classLayerR2 .list .content {
+	padding: 12px 0px 12px 55px;
+}
+.classLayerR2 .list .content a {
+	line-height: 25px; margin-right: 15px;
+}
+.pageBox {
+	border-width: 2px 1px 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(222, 222, 222) rgb(222, 222, 222); border-image: none; min-height: 10px; _height: 10px;
+}
+.pageBox2 {
+	border: 1px solid rgb(222, 222, 222); border-image: none; margin-bottom: 15px; min-height: 100px; _height: 100px;
+}
+.footDiv {
+	background: rgb(242, 242, 242); height: 315px; overflow: hidden; border-top-color: #1e99db; border-top-width: 4px; border-top-style: solid;
+}
+.footDiv .wal {
+	background: url("../image/footBg.gif") repeat-y right; height: 315px; overflow: hidden;
+}
+.footDiv .title {
+	height: 55px; color: #1e99db; line-height: 50px; overflow: hidden;
+}
+.footDiv_01 {
+	background: url("../image/footBg.gif") repeat-y left; width: 335px; height: 315px; overflow: hidden; padding-left: 20px;
+}
+.footDiv_01 li {
+	height: 74px; overflow: hidden; padding-left: 69px; position: relative;
+}
+.footDiv_01 .imgDiv {
+	left: 0px; top: 0px; position: absolute; z-index: 1;
+}
+.footDiv_01 h5 {
+	padding: 2px 0px 5px; font-size: 13px;
+}
+.footDiv_01 .content {
+	color: rgb(137, 137, 137);
+}
+.footDiv_02 {
+	background: url("../image/footBg.gif") repeat-y left; width: 362px; height: 315px; overflow: hidden; padding-left: 20px; position: relative;
+}
+.footDiv_02 ul {
+	width: 110%;
+}
+.footDiv_02 li {
+	width: 93px; height: 132px; line-height: 21px; overflow: hidden; padding-left: 29px; float: left; position: relative;
+}
+.footDiv_02 h5 {
+	padding-bottom: 10px; font-size: 13px;
+}
+.footDiv_02 .ico {
+	left: 0px; top: 0px; position: absolute; z-index: 1;
+}
+.footDiv_02 .content a {
+	color: rgb(137, 137, 137);
+}
+.footDiv_02 .content a:hover {
+	color: rgb(204, 0, 0);
+}
+.footDiv_03 {
+	background: url("../image/footBg.gif") repeat-y left; padding: 0px 20px; width: 322px; height: 315px; overflow: hidden;
+}
+.footDiv_03 .weibo {
+	height: 125px; overflow: hidden; padding-left: 81px; margin-bottom: 18px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.footDiv_03 .div0 {
+	left: 0px; top: 0px; width: 71px; text-align: center; overflow: hidden; position: absolute; z-index: 1;
+}
+.footDiv_03 .weibo li {
+	color: rgb(137, 137, 137); line-height: 18px; padding-bottom: 20px; padding-left: 26px; position: relative; min-height: 20px; _height: 20px;
+}
+.footDiv_03 .weibo .imgDiv {
+	left: 0px; top: 0px; position: absolute; z-index: 1;
+}
+.footDiv_03 .weibo h5 {
+	padding: 2px 0px 5px; color: rgb(85, 85, 85);
+}
+.footDiv_03 .tel {
+	height: 85px; color: rgb(215, 69, 46); overflow: hidden; padding-left: 61px; position: relative;
+}
+.footDiv_03 .tel .div1 {
+	left: 0px; top: 15px; width: 50px; color: rgb(90, 90, 90); position: absolute; z-index: 1;
+}
+.footDiv_03 .tel h1 {
+	top: 3px; font-size: 30px; position: relative;
+}
+.footDiv2 {
+	padding: 20px 0px 15px; height: 185px; overflow: hidden; border-top-color: rgb(216, 69, 46); border-bottom-color: rgb(225, 225, 225); border-top-width: 3px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid;
+}
+.footDiv2 .list {
+	width: 750px; height: 185px; overflow: hidden; border-right-color: rgb(225, 225, 225); border-right-width: 1px; border-right-style: solid; position: relative;
+}
+.footDiv2 li {
+	width: 83px; height: 132px; line-height: 21px; overflow: hidden; padding-left: 29px; float: left; position: relative;
+}
+.footDiv2 h5 {
+	padding-bottom: 10px; font-size: 13px;
+}
+.footDiv2 .ico {
+	left: 0px; top: 0px; position: absolute; z-index: 1;
+}
+.footDiv2 .content a {
+	color: rgb(137, 137, 137);
+}
+.footDiv2 .content a:hover {
+	color: rgb(204, 0, 0);
+}
+.footDiv2 .li_01 {
+	width: 140px; overflow: hidden;
+}
+.footDiv2 .fr {
+	width: 304px; overflow: hidden;
+}
+.footDiv2 .tel {
+	top: -5px; height: 60px; color: rgb(215, 69, 46); overflow: hidden; padding-left: 61px; position: relative;
+}
+.footDiv2 .tel .div1 {
+	left: 0px; top: 15px; width: 50px; color: rgb(90, 90, 90); position: absolute; z-index: 1;
+}
+.footDiv2 .tel h1 {
+	font-size: 30px; position: relative;
+}
+.footDiv2 .weibo {
+	background: rgb(245, 245, 245); padding: 6px 0px 0px 10px; height: 24px; overflow: hidden;
+}
+.footDiv2 .weibo a {
+	padding: 0px 10px; float: left; display: block;
+}
+.footDiv2 .weibo img {
+	margin-right: 3px; float: left;
+}
+.foot {
+	height: 123px; overflow: hidden;
+}
+.foot .fl {
+	width: 500px; overflow: hidden;
+}
+.foot .div0 {
+	padding: 16px 0px 9px;
+}
+.foot .fr {
+	width: 500px; text-align: right; line-height: 18px; overflow: hidden; padding-top: 10px;
+}
+.foot .div1 {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+.foot .div1 a {
+	color: rgb(153, 153, 153); margin-right: 5px;
+}
+.tabContent {
+	display: none;
+}
+.tabContent2 {
+	display: none;
+}
+.selectDiv {
+	cursor: pointer;
+}
+.selectDiv span {
+	padding-left: 5px;
+}
+.selectDiv select {
+	display: none;
+}
+.selectLayer {
+	background: rgb(255, 255, 255); border: 1px solid rgb(186, 186, 186); border-image: none; display: none; position: absolute; z-index: 100;
+}
+.selectLayer li {
+	height: 22px; color: rgb(102, 102, 102); line-height: 22px; overflow: hidden; padding-left: 5px;
+}
+.rightBtn1 {
+	width: 58px; right: 15px; bottom: 100px; overflow: hidden; position: fixed; z-index: 50; _position: absolute;
+}
+.rightBtn1 li {
+	padding-bottom: 2px;
+}
+.rightBtn1 a {
+	background: rgb(250, 222, 204); width: 58px; height: 58px; overflow: hidden; display: block;
+}
+.rightBtn1 a:hover {
+	background: rgb(239, 140, 76);
+}
+.rightBtn2 {
+	width: 84px; right: 0px; bottom: 100px; overflow: hidden; position: fixed; z-index: 50; _position: absolute;
+}
+.rightBtn2 li {
+	height: 103px; overflow: hidden;
+}
+.rightBtn2 a {
+	background: rgb(241, 120, 3); border-radius: 3px; width: 28px; height: 100px; overflow: hidden; float: right; display: block;
+}
+.rightBtn2 img {
+	float: right; display: block;
+}
+.rightBtn2 .shop_backtop {
+	height: 80px; overflow: hidden;
+}
+.rightBtn2 .shop_backtop a {
+	background: rgb(195, 199, 202); width: 28px; height: 77px;
+}
+.rightBtn2 .a1 {
+	background: rgb(247, 155, 214); width: 72px; text-align: center; color: rgb(255, 255, 255); line-height: 38px; overflow: hidden; font-size: 14px; float: left; display: none;
+}
+.rightBtn2Now {
+	width: 110px;
+}
+.pageNow {
+	height: 30px; overflow: hidden; padding-top: 13px; font-size: 14px;
+}
+.pageNow span {
+	font-size: 12px;
+}
+.pageNum {
+	height: 84px; text-align: center; overflow: hidden; padding-top: 17px;
+}
+.pageNum a {
+	background: url("../image/pageNum.gif") repeat-x top; margin: 0px 6px; padding: 0px 12px; border: 2px solid rgb(224, 224, 224); border-image: none; height: 35px; line-height: 35px; overflow: hidden; display: inline-block;
+}
+.pageNum a:hover {
+	background: none; padding: 0px 12px; border: 2px solid rgb(125, 64, 193); border-image: none; height: 35px; color: rgb(125, 64, 193); line-height: 35px;
+}
+.pageNum .aNow {
+	background: none; padding: 0px 12px; border: 2px solid rgb(125, 64, 193); border-image: none; height: 35px; color: rgb(125, 64, 193); line-height: 35px;
+}
+.pageNum .aNow {
+	font-weight: bold;
+}
+.pageNum span {
+	padding: 0px 12px; height: 39px; line-height: 39px; overflow: hidden; display: inline-block;
+}
+.pageNum input {
+	margin: 0px 6px; padding: 0px; border: 1px solid rgb(224, 224, 224); border-image: none; width: 40px; height: 19px; text-align: center; line-height: 19px;
+}
+.ContrastA {
+	background: url("../image/ContrastA.gif") no-repeat left top; width: 86px; height: 23px; overflow: hidden; display: inline-block;
+}
+.ContrastA2 {
+	background: url("../image/ContrastA.gif") no-repeat left bottom;
+}
+.noData {
+	padding: 50px 0px; text-align: center; color: rgb(153, 153, 153); font-size: 14px;
+}
+#Layer1 {
+	left: 0px; top: 0px; width: 100%; display: none; position: fixed; z-index: 99; background-color: rgb(0, 0, 0); _position: absolute;
+}
+.tipsLayer {
+	border-radius: 5px; border: 5px solid rgba(0, 0, 0, 0.15); border-image: none; display: none; position: absolute; z-index: 100; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.tipsLayer .title {
+	background: rgb(130, 196, 249); height: 36px; color: rgb(255, 255, 255); line-height: 36px; overflow: hidden; padding-left: 12px; position: relative;
+}
+.tipsLayer .close {
+	background: url("../image/close.png") no-repeat left top; top: 9px; width: 18px; height: 18px; right: 9px; overflow: hidden; display: block; position: absolute; z-index: 110;
+}
+.CollectionLayer {
+	background: rgb(255, 255, 255); width: 461px; height: 236px; overflow: hidden;
+}
+#CollectionLayer .title {
+	width: 449px;
+}
+.CollectionLayer .msg {
+	background: url("../image/ico4.png") no-repeat 100px 60px; padding: 65px 0px 13px 145px; font-weight: 100;
+}
+.CollectionLayer .content {
+	padding: 0px 0px 45px 145px;
+}
+.CollectionLayer .btnDiv {
+	text-align: center;
+}
+.CollectionLayer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 110px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.ArrivalLayer {
+	background: rgb(255, 255, 255); padding: 15px; width: 430px; overflow: hidden;
+}
+#ArrivalLayer .title {
+	width: 448px;
+}
+#showNoticeLayer .title {
+	width: 448px;
+}
+.ArrivalLayer span {
+	color: rgb(153, 153, 153);
+}
+.ArrivalLayer .title1 {
+	padding: 10px 0px 15px 25px; margin-bottom: 15px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ArrivalLayer .btnDiv {
+	text-align: center; padding-top: 10px;
+}
+.ArrivalLayer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 110px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; overflow: hidden; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.ArrivalLayer .btn2 {
+	background: url("../image/btn9.gif") repeat-x top rgb(236, 242, 251); border: 1px solid rgb(232, 232, 232); border-image: none; width: 61px; height: 29px; text-align: center; line-height: 29px; overflow: hidden; margin-left: 12px; display: inline-block;
+}
+.ArrivalLayer li {
+	height: 28px; line-height: 24px; overflow: hidden; padding-left: 25px;
+}
+.ArrivalLayer .checkbox {
+	top: 3px; position: relative;
+}
+.ArrivalLayer .input1 {
+	padding: 0px 5px; border: 1px solid rgb(230, 230, 230); border-image: none; top: 2px; width: 215px; height: 22px; color: rgb(153, 153, 153); line-height: 22px; position: relative;
+}
+.ArrivalLayer .li_01 {
+	padding-left: 130px;
+}
+.ArrivalLayer .list {
+	padding-bottom: 15px; margin-bottom: 15px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ArrivalLayer .b1 {
+	color: rgb(153, 153, 153);
+}
+.giftTipsLayer {
+	background: rgb(255, 255, 255); padding: 55px 0px 40px; width: 490px; text-align: center; overflow: hidden;
+}
+#giftTipsLayer .title {
+	width: 478px;
+}
+.giftTipsLayer .msg {
+	padding: 12px 0px 35px; color: rgb(102, 102, 102);
+}
+.giftTipsLayer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 150px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.orderStep2Layer {
+	background: rgb(255, 255, 255); padding: 70px 0px 45px; width: 480px; text-align: center; overflow: hidden;
+}
+#orderStep2Layer .title {
+	width: 468px;
+}
+.orderStep2Layer .msg {
+	padding-bottom: 47px;
+}
+.orderStep2Layer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 80px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.forgotMailLayer {
+	background: rgb(255, 255, 255); padding: 70px 0px 45px; width: 480px; text-align: center; overflow: hidden;
+}
+#forgotMailLayer .title {
+	width: 468px;
+}
+.forgotMailLayer .msg {
+	padding-bottom: 47px;
+}
+.forgotMailLayer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 160px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.regVerificationLayer {
+	background: rgb(255, 255, 255); padding: 30px 0px; width: 370px; text-align: center; overflow: hidden;
+}
+#regVerificationLayer .title {
+	width: 458px;
+}
+.regVerificationLayer .content {
+	line-height: 20px; padding-bottom: 20px;
+}
+.regVerificationLayer .content b {
+	color: rgb(255, 72, 0);
+}
+.regVerificationLayer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 160px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.cartStep3Layer {
+	background: rgb(255, 255, 255); padding: 30px; width: 400px; overflow: hidden;
+}
+#cartStep3Layer .title {
+	width: 448px;
+}
+.cartStep3Layer .list {
+	padding-bottom: 10px;
+}
+.cartStep3Layer li {
+	height: 32px; overflow: hidden;
+}
+.cartStep3Layer li img {
+	margin-right: 5px; float: left;
+}
+.cartStep3Layer li span {
+	color: rgb(153, 153, 153);
+}
+.cartStep3Layer li a {
+	color: rgb(51, 102, 204);
+}
+.cartStep3Layer .div0 {
+	padding: 20px 0px 5px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.cartStep3Layer .btn {
+	background: url("../image/btn10.gif") repeat-x top; width: 160px; height: 31px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; display: inline-block;
+}
+.showCartLayer {
+	background: rgb(255, 255, 255); width: 485px; overflow: hidden;
+}
+#showCartLayer .title {
+	width: 473px;
+}
+.showCartLayer h1 {
+	padding: 35px 0px 0px 43px; height: 45px; line-height: 35px; overflow: hidden;
+}
+.showCartLayer h1 img {
+	margin-right: 10px; float: left;
+}
+.showCartLayer .btnDiv {
+	height: 63px; overflow: hidden; padding-left: 89px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.showCartLayer .btn1 {
+	background: url("../image/showCartBtn.gif") no-repeat left bottom; width: 151px; height: 31px; margin-right: 7px; float: left; display: block;
+}
+.showCartLayer .btn1:hover {
+	background: url("../image/showCartBtn.gif") no-repeat left top;
+}
+.showCartLayer .btn2 {
+	background: url("../image/showCartBtn.gif") no-repeat right bottom; width: 110px; height: 31px; float: left; display: block;
+}
+.showCartLayer .btn2:hover {
+	background: url("../image/showCartBtn.gif") no-repeat right top;
+}
+.showCartLayer .list {
+	background: rgb(247, 247, 247); height: 230px; overflow: hidden; padding-left: 22px;
+}
+.showCartLayer .name1 {
+	height: 42px; color: rgb(153, 153, 153); line-height: 40px; overflow: hidden;
+}
+.showCartLayer li {
+	width: 112px; height: 185px; overflow: hidden; padding-left: 26px; float: left;
+}
+.showCartLayer li img {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.showCartLayer .name {
+	height: 33px; overflow: hidden; padding-top: 2px;
+}
+.loginLayer {
+	background: rgb(255, 255, 255); width: 460px; overflow: hidden;
+}
+#loginLayer .title {
+	width: 448px;
+}
+.loginLayer .title1 {
+	background: url("../image/line3.gif") repeat-x left 49px; padding: 0px 0px 0px 38px; height: 84px; overflow: hidden;
+}
+.loginLayer .title1 li {
+	background: rgb(245, 245, 245); border: 1px solid rgb(221, 221, 221); border-image: none; top: 16px; width: 91px; height: 32px; text-align: center; line-height: 32px; font-size: 14px; margin-right: 5px; float: left; position: relative;
+}
+.loginLayer .title1 .liNow {
+	background: rgb(255, 255, 255); top: 12px; height: 37px; color: rgb(254, 120, 0); line-height: 37px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.loginLayer .div1 {
+	background: url("../image/19ico.gif") no-repeat 37px top; height: 50px; overflow: hidden; padding-left: 54px;
+}
+.loginLayer .formDiv {
+	margin: 0px auto; width: 275px; overflow: hidden; position: relative;
+}
+.loginLayer .formDiv li {
+	height: 48px; overflow: hidden; position: relative;
+}
+.loginLayer .ico {
+	top: 8px; right: 8px; position: absolute;
+}
+.loginLayer .checkbox {
+	top: -1px; float: left; position: relative;
+}
+.loginLayer .formDiv .btnDiv {
+	height: 75px; overflow: hidden;
+}
+.loginLayer .div0 {
+	background: rgb(244, 244, 244); padding: 0px 30px; height: 38px; line-height: 38px; overflow: hidden;
+}
+.loginLayer .div0 a {
+	background: url("../image/loginBg1.gif") no-repeat right; padding: 0px 10px 0px 8px; color: rgb(60, 126, 216); float: left; display: block;
+}
+.loginLayer .div0 img {
+	top: 12px; margin-right: 5px; float: left; position: relative;
+}
+.loginLayer .input1 {
+	padding: 0px 5px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 263px; height: 33px; color: rgb(153, 153, 153); line-height: 33px; float: left;
+}
+.loginLayer .inputNow {
+	border: 1px solid rgb(60, 126, 216); border-image: none; color: rgb(51, 51, 51); font-weight: bold;
+}
+.loginLayer .inputError {
+	border: 1px solid rgb(204, 51, 51); border-image: none; color: rgb(204, 51, 51); font-weight: bold;
+}
+.loginLayer .btn1 {
+	background: url("../image/btn5.gif") repeat-x top; border: none; width: 100%; height: 28px; color: rgb(255, 255, 255); font-size: 14px;
+}
+.memberArrivalLayer {
+	background: rgb(255, 255, 255); width: 460px; overflow: hidden;
+}
+#memberArrivalLayer .title {
+	width: 448px;
+}
+.memberArrivalLayer h2 {
+	padding: 68px 0px 42px; text-align: center; font-weight: 100;
+}
+.memberArrivalLayer h2 img {
+	left: -5px; top: 2px; position: relative;
+}
+.memberArrivalLayer .btnDiv {
+	height: 82px; text-align: center; overflow: hidden;
+}
+.memberArrivalLayer .btnDiv a {
+	margin: 0px 5px; display: inline-block;
+}
+.memberArrivalLayer .btn1 {
+	background: url("../image/btn5.gif") repeat-x top; width: 63px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; overflow: hidden;
+}
+.memberArrivalLayer .btn2 {
+	background: url("../image/btn9.gif") repeat-x top; border: 1px solid rgb(232, 232, 232); border-image: none; width: 61px; height: 24px; text-align: center; line-height: 24px; overflow: hidden;
+}
+.PaymentLayer {
+	background: rgb(255, 255, 255); padding: 30px 0px 0px 135px; width: 357px; height: 200px; overflow: hidden; position: relative;
+}
+#PaymentLayer .title {
+	width: 480px;
+}
+.PaymentLayer li {
+	padding: 7px 0px; height: 31px; line-height: 30px; overflow: hidden; font-size: 14px;
+}
+.PaymentLayer .btn1 {
+	background: url("../image/btn_1.gif") repeat-x top; top: 10px; width: 140px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; overflow: hidden; display: inline-block; position: relative;
+}
+.PaymentLayer .btn2 {
+	background: url("../image/btn_2.gif") repeat-x top; top: 10px; width: 140px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; overflow: hidden; display: inline-block; position: relative;
+}
+.PaymentLayer .ico {
+	left: 102px; top: 40px; position: absolute;
+}
+.feedbackLayer {
+	background: rgb(255, 255, 255); width: 764px; overflow: hidden;
+}
+#feedbackLayer .title {
+	width: 752px;
+}
+.feedbackLayer .tab {
+	background: url("../image/line4.gif") repeat-x left 55px; padding: 0px 10px 0px 38px; height: 56px; overflow: hidden; position: relative;
+}
+.feedbackLayer .tab .fr {
+	color: rgb(153, 153, 153); padding-top: 32px;
+}
+.feedbackLayer .tab li {
+	background: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-image: none; top: 22px; width: 157px; height: 32px; text-align: center; color: rgb(255, 119, 0); line-height: 32px; margin-right: 10px; float: left; position: relative; cursor: pointer;
+}
+.feedbackLayer .tab .liNow {
+	background: rgb(255, 255, 255); top: 18px; width: 157px; height: 37px; color: rgb(102, 102, 102); line-height: 37px; font-size: 14px;
+}
+.feedbackLayer .msg {
+	background: rgb(255, 251, 235); padding: 12px 0px; text-align: center; color: rgb(102, 102, 102);
+}
+.feedbackLayer .form {
+	padding-top: 35px;
+}
+.feedbackLayer .form li {
+	padding: 0px 0px 25px 155px; position: relative; min-height: 10px; _height: 10px;
+}
+.feedbackLayer .form .span1 {
+	left: 0px; top: 0px; width: 150px; text-align: right; position: absolute; z-index: 10;
+}
+.feedbackLayer .form .span2 {
+	top: 6px;
+}
+.feedbackLayer .radio {
+	left: -2px; top: 3px; position: relative;
+}
+.feedbackLayer .input1 {
+	padding: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 465px; height: 33px; line-height: 33px;
+}
+.feedbackLayer .msg2 {
+	padding-right: 140px;
+}
+.feedbackLayer .btnDiv {
+	height: 60px; text-align: center; overflow: hidden;
+}
+.feedbackLayer .btn1 {
+	background: url("../image/btn32.gif"); border: none; width: 230px; height: 31px; cursor: pointer;
+}
+.feedbackLayer .title1 {
+	padding: 15px 0px; text-align: center; color: rgb(118, 183, 42); font-size: 26px; font-weight: bold;
+}
+.feedbackLayer .div0 {
+	padding: 0px 0px 6px 72px;
+}
+.feedbackLayer .formDiv {
+	padding: 0px 0px 30px 72px;
+}
+.feedbackLayer textarea {
+	padding: 0px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 620px; height: 260px;
+}
+.linksLayer {
+	background: rgb(255, 255, 255); width: 483px; overflow: hidden; padding-bottom: 55px;
+}
+#linksLayer .title {
+	width: 483px;
+}
+.linksLayer .content {
+	background: url("../image/okIco.gif") no-repeat 105px 53px; padding: 55px 135px 35px; line-height: 20px;
+}
+.linksLayer .btn {
+	background: url("../image/btn18.gif") repeat-x top; margin: 0px auto; width: 137px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; display: block;
+}
+.msgLayer {
+	background: rgb(255, 255, 255); padding: 25px; width: 442px; line-height: 24px; overflow: hidden; position: relative;
+}
+#msgLayer .title {
+	width: 480px;
+}
+#msgLayer2 .title {
+	width: 480px;
+}
+.msgLayer span {
+	color: rgb(153, 153, 153);
+}
+.msgLayer h2 {
+	padding: 10px 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.msgLayer .btnDiv {
+	text-align: center; padding-top: 25px;
+}
+.msgLayer .btnDiv a {
+	margin: 0px 5px; display: inline-block;
+}
+.msgLayer .btn1 {
+	background: url("../image/btn5.gif") repeat-x top; width: 63px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; overflow: hidden;
+}
+.msgLayer .btn2 {
+	background: url("../image/btn9.gif") repeat-x top; border: 1px solid rgb(232, 232, 232); border-image: none; width: 61px; height: 24px; text-align: center; line-height: 24px; overflow: hidden;
+}
+.pageSelect {
+	overflow: hidden; float: left; display: block;
+}
+.pageSelect span {
+	background: url("../image/pageSelect.gif") no-repeat right bottom; padding: 0px 20px 0px 10px; height: 18px; line-height: 18px; overflow: hidden; float: left; display: block; white-space: nowrap; cursor: pointer;
+}
+.pageSelectLayer {
+	background: rgb(255, 255, 255); padding: 5px 0px; border-radius: 5px; width: 110px; overflow: hidden; display: none; position: absolute; z-index: 100; box-shadow: 0px 0px 6px #111; -webkit-box-shadow: 0px 0px 6px #111; -moz-box-shadow: 0px 0px 6px #111; -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.pageSelectLayer li {
+	padding: 1px 0px;
+}
+.pageSelectLayer a {
+	height: 17px; line-height: 17px; overflow: hidden; padding-left: 21px; display: block;
+}
+.pageSelectLayer a:hover {
+	background: url("../image/pageSelectLayer.gif") no-repeat left top; color: rgb(255, 255, 255);
+}
+.pageSelectLayer .aNow {
+	background: url("../image/pageSelectLayer.gif") no-repeat left top; color: rgb(255, 255, 255);
+}
+.giftRecommend {
+	border: 1px solid rgb(204, 204, 204); border-image: none; height: 268px; overflow: hidden; position: relative;
+}
+.giftRecommend h2 {
+	height: 33px; color: rgb(102, 102, 102); line-height: 33px; padding-left: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.giftRecommend .tab {
+	top: 0px; right: 0px; position: absolute; z-index: 10;
+}
+.giftRecommend .tab li {
+	background: url("../image/tabBg9.gif") repeat-x top; width: 152px; height: 34px; text-align: center; line-height: 33px; overflow: hidden; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; float: left; cursor: pointer;
+}
+.giftRecommend .tab .liNow {
+	background: url("../image/tabBg9Hover.gif") repeat-x top; font-weight: bold;
+}
+.giftRecommend .tabContent {
+	height: 234px; overflow: hidden; position: relative;
+}
+.giftRecommend .leftBtn {
+	background: url("../image/leftBtn6.gif") no-repeat center; left: 0px; top: 0px; width: 23px; height: 234px; overflow: hidden; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: block; position: absolute; z-index: 10;
+}
+.giftRecommend .rightBtn {
+	background: url("../image/rightBtn6.gif") no-repeat center; top: 0px; width: 23px; height: 234px; right: 0px; overflow: hidden; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; display: block; position: absolute; z-index: 10;
+}
+.giftRecommend .list {
+	margin: 0px auto; width: 1032px; overflow: hidden; position: relative;
+}
+.giftRecommend .list ul {
+	width: 2000%;
+}
+.giftRecommend .list li {
+	padding: 23px 19px 0px; width: 134px; overflow: hidden; float: left;
+}
+.giftRecommend .name {
+	padding: 6px 0px 3px; line-height: 18px; overflow: hidden; -ms-word-break: break-all; -ms-word-wrap: break-word; min-height: 1.6em; max-height: 2.5em;
+}
+.giftRecommend .price {
+	font-weight: bold;
+}
+#shop_backtop {
+	display: none;
+}
+.subnav {
+	background: #fff; border-width: medium 1px 1px; border-style: none solid solid; border-color:#1e99db; border-image: none; left: 0px; top: -2px; width: 199px; height: auto; float: left; display: none; position: absolute; z-index: 99999; -ms-zoom: 1; padding-bottom:2px;
+}
+.subnav h2 {
+	width: 199px; height: 24px; color: rgb(224, 91, 30); line-height: 18px; font-size: 13px;
+}
+.subnav li {
+	background: url("../image/dotmore.jpg") no-repeat 180px 40px; padding: 0px 0px 0px 12px; width: 187px; height: 101px; border-bottom-color: rgb(247, 215, 200); border-bottom-width: 1px; border-bottom-style: solid; float: left; position: relative;
+}
+.subnav li:last-child {
+	border: currentColor; border-image: none;
+}
+.subnav li h2 img {
+	margin-right: 5px; float: left;
+}
+.subnav li h2 font {
+	color: #1e99db; font-size: 13px; float: left;
+}
+.subnav h3 {
+	padding: 0px 0px 0px 15px; width: 145px; line-height: 20px;
+}
+.subnav h3 a {
+	height: auto; line-height: 20px; padding-right: 10px; font-size: 12px; font-weight: normal;
+}
+.subnav h3 a:hover {
+	background: none;
+}
+.subnav li .listmr {
+	padding: 12px 0px 15px 12px; left: -1px; top: 0px; width: 189px; height: 74px; position: absolute; z-index: 9999; -ms-zoom: 1;
+}
+.subnav li .listmr h2 a {
+	height: auto; line-height: 18px;
+}
+.subnav li:hover .listmr {
+	background: rgb(255, 255, 255); border-width: 2px medium 2px 2px; border-style: solid none solid solid; border-color: #1e99db; padding: 10px 0px 16px 10px; border-image: none; left: -1px; top: 0px; width: 188px; height: 74px; position: absolute; z-index: 9999; -ms-zoom: 1;
+}
+.subnav li .navhover {
+	background: rgb(255, 255, 255); border: 2px solid #1e99db;; border-image: none; left: 197px; top: 0px; width: 640px; height: auto; overflow: hidden; display: none; position: absolute; z-index: 11;
+}
+.subnav li:hover .navhover {
+	display: block;
+}
+.subnav li .navhover ul {
+	width: 442px; height: auto; overflow: hidden; padding-right: 12px; padding-bottom: 0px; padding-left: 12px; border-right-color: rgb(219, 219, 219); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.subnav li .navhover li {
+	background: none; width: 430px; height: auto; overflow: hidden; padding-top: 12px; padding-bottom: 15px; clear: both; border-bottom-color: rgb(243, 243, 243); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.subnav li .navhover li a {
+	color: rgb(102, 102, 102);
+}
+.subnav li .navhover li strong {
+	width: 55px; color: rgb(238, 132, 64); line-height: 18px; float: left; display: block;
+}
+.subnav li .navhover li span {
+	width: 372px; float: left; display: block;
+}
+.subnav li .navhover li span a {
+	height: auto; line-height: 20px; padding-right: 10px; font-size: 12px;
+}
+.hotbrand {
+	width: 160px; padding-left: 10px; float: left;
+}
+.hotbrand h6 {
+	margin: 0px 0px 5px; padding: 0px; line-height: 32px; font-size: 13px;
+}
+.subnav li .navhover .hotbrand ul {
+	padding: 0px; width: 152px; height: auto; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.subnav li .navhover .hotbrand li {
+	margin: 0px; padding: 0px; width: 75px; height: 47px; clear: none; border-bottom-color: rgb(229, 229, 229); border-left-color: rgb(229, 229, 229); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; float: left;
+}
+.advertising1 {
+	margin: 0px auto; width: 100%; height: 70px; text-align: center;
+}
+.advertising1 a {
+	margin: 0px auto; width: 100%; height: 70px; text-align: center; display: block;
+}
+.rightclass {
+	left: 50%; width: 58px; height: auto; bottom: 0px; margin-bottom: 130px; margin-left: 550px; position: fixed; z-index: 1000;
+}
+.rightclass a {
+	text-decoration: none;
+}
+.scroll_online {
+	width: 58px; height: 59px; margin-bottom: 4px; position: relative;
+}
+.scroll_online a {
+	width: 58px; height: 59px; float: right; display: block;
+}
+.scroll_online:hover {
+	left: -114px; width: 172px;
+}
+.scroll_online bdo a {
+	background: url("../image/time1.jpg") no-repeat 0px 0px; left: 0px; top: 0px; width: 0px; margin-left: 114px; display: none; position: absolute;
+}
+.scroll_weixin {
+	width: 58px; height: 59px; margin-bottom: 4px; position: relative;
+}
+.scroll_weixin a:hover {
+	background: url("../image/wx1.jpg") no-repeat 0px -59px;
+}
+.scroll_weixin a {
+	background: url("../image/wx1.jpg") no-repeat; width: 58px; height: 59px; display: block;
+}
+.scroll_weixin span {
+	left: -141px; top: -37px; display: none; position: absolute;
+}
+.scroll_weibo {
+	width: 58px; height: 59px; margin-bottom: 4px;
+}
+.scroll_weibo a {
+	background: url("../image/wb1.jpg") no-repeat 0px 0px; width: 58px; height: 59px; display: block;
+}
+.scroll_weibo:hover a {
+	background: url("../image/wb1.jpg") no-repeat 0px -59px;
+}
+.scroll_backtop {
+	width: 58px; height: 59px; display: block;
+}
+.scroll_backtop a {
+	background: url("../image/backtop1.jpg") no-repeat; width: 58px; height: 59px; display: none;
+}
+.scroll_backtop:hover a {
+	background: url("../image/backtop1.jpg") no-repeat 0px -58px;
+}
+.fixedbottom {
+	background: rgb(240, 240, 240); width: 100%; height: 30px; bottom: 0px; padding-top: 5px; border-top-color: #1e99db;; border-top-width: 4px; border-top-style: solid; position: fixed; z-index: 88888;
+}
+.jCarouselLite_ad {
+	width: 595px; height: 131px; overflow: hidden; margin-left: 28px;
+}
+.banner_ad {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: rgb(222, 222, 222); border-image: none; width: 654px; height: 133px; overflow: hidden; float: left; position: relative;
+}
+.banner_ad ul {
+	width: 1000%;
+}
+.banner_ad li {
+	margin: 0px; width: 184px; height: 131px; overflow: hidden; padding-right: 8px; padding-left: 8px; border-right-color: rgb(237, 237, 237); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.banner_ad li .imgDIV {
+	padding: 4px; border: 1px solid rgb(237, 237, 237); border-image: none; width: 251px; height: 186px;
+}
+.banner_ad li:hover .imgDIV {
+	border: 1px solid #1e99db; border-image: none;
+}
+.banner_ad .leftBtn {
+	background: url("../image/index_ad_left.png") no-repeat center; left: 0px; top: 0px; width: 23px; height: 131px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.banner_ad .rightBtn {
+	background: url("../image/index_ad_right.png") no-repeat center; top: 0px; width: 23px; height: 131px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.index_icon {
+	width: 232px; height: 134px; border-left-color: rgb(222, 222, 222); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.index_icon li {
+	width: 76px; height: 66px; overflow: hidden; border-right-color: rgb(222, 222, 222); border-bottom-color: rgb(222, 222, 222); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.index_icon p {
+	width: 73px; text-align: center; font-size: 11px;
+}
+.index_icon i {
+	background: url("../image/index_icon.png") no-repeat rgb(255, 255, 255); margin: 12px auto 3px; width: 33px; height: 25px; text-align: center; color: rgb(255, 68, 0); display: block;
+}
+.index_icon .index_icon1 {
+	background-position: 0px 0px;
+}
+.index_icon .index_icon2 {
+	background-position: 0px -25px;
+}
+.index_icon .index_icon3 {
+	background-position: 0px -50px;
+}
+.index_icon .index_icon4 {
+	background-position: 0px -81px;
+}
+.index_icon .index_icon5 {
+	background-position: 0px -108px;
+}
+.index_icon .index_icon6 {
+	background-position: 0px -135px;
+}
+.subnav li .listmr_cut {
+	padding: 12px 0px 15px 12px; left: -1px; top: 0px; width: 189px; height: auto; position: absolute; z-index: 9999; -ms-zoom: 1;
+}
+.subnav li:hover .listmr_cut {
+	background: rgb(255, 255, 255); border-width: 2px medium 2px 2px; border-style: solid none solid solid; border-color: #1e99db; padding: 10px 0px 2px 10px; border-image: none; left: -1px; top: 0px; width: 188px; position: absolute; z-index: 9999; -ms-zoom: 1;
+}
+.hot_item_ad {
+	width: 1120px; height: 238px; margin-right: -12px; margin-bottom: 12px; margin-left: -9px; display: block;
+}
+.hot_item_ad li {
+	padding: 0px; width: 260px; height: 238px; overflow: hidden; margin-right: 10.5px; margin-left: 9px; float: left;
+}
+.w1098 {
+	width:1098px;
+	margin:auto;
+}
+.ptb16 {
+		padding:16px 0px;
+}
+.box_yzb {
+	width:168px;
+	height:29px;
+	background:url(../images/yzb.jpg) no-repeat left center;
+	margin-left:26px;
+}
+.box_footer {
+	border-top:1px #e8e8e9 solid;
+	background:#fafafa;
+}
+
+.box_footer_sub1 li {
+	width:219px;
+	float:left;
+	text-align:center;
+	font-size:18px;
+	color:#999999;
+}
+.box_footer_sub1 li dd {
+	text-align:center;
+	padding:6px 0px;
+}
+.clear {
+	clear:both;
+	float:none;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.box_footer_sub2 {
+		border-top:1px #e8e8e9 solid;
+}
+.box_footer_sub2_sub1 {
+	width:780px;
+}
+.box_footer_sub2_sub2 {
+	width:246px;
+		background:url(../image/kf.jpg) no-repeat left top;
+		padding-left:60px;
+}
+.box_footer_sub2_sub1 li {
+	width:156px;
+	float:left;
+}
+.box_footer_sub2_sub1 li dt,
+.box_footer_sub2_sub1 li dd {
+	padding-left:36px;
+}
+.box_footer_sub2_sub1 li dt {
+	font-size:18px;
+	color:#1e99db;
+	line-height:32px;
+	height:32px;
+}
+.l1bg {
+	background:url(../image/l1.jpg) no-repeat left top;
+}
+.l2bg {
+	background:url(../image/l2.jpg) no-repeat left top;
+}
+.l3bg {
+	background:url(../image/l3.jpg) no-repeat left top;
+}
+.l4bg {
+	background:url(../image/l4.jpg) no-repeat left top;
+}
+.l5bg {
+	background:url(../image/l5.jpg) no-repeat left top;
+}
+
+
+.box_footer_sub2_sub2 dt {
+	font-size:18px;
+	color:#1e99db;
+	line-height:32px;
+	height:32px;
+}
+.kftel {
+	font-size:22px;
+	line-height:32px;
+	color:#e6720c;
+}
+.box_footer_sub2_sub2 dd {
+	line-height:28px;
+}

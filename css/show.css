@@ -1,0 +1,930 @@
+.sideClass li {
+	height: 30px;
+}
+.showPart1 {
+	width: 380px; height: 528px; overflow: hidden; position: relative;
+}
+.showPart1 .bigImg {
+	border: 1px solid rgb(225, 225, 225); border-image: none; height: 378px; overflow: hidden; margin-bottom: 9px;
+}
+.showPart1 .bigImg img {
+	width: 378px; height: 378px;
+}
+.showPart1 .leftBtn {
+	background: url("../image/leftBtn2.gif") no-repeat left top; left: 0px; top: 394px; width: 12px; height: 64px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.showPart1 .rightBtn {
+	background: url("../image/rightBtn2.gif") no-repeat left top; top: 394px; width: 12px; height: 64px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.showPart1 .list {
+	margin: 0px auto; width: 350px; height: 79px; overflow: hidden; position: relative;
+}
+.showPart1 .list ul {
+	width: 2000%;
+}
+.showPart1 .list li {
+	width: 70px; height: 64px; text-align: center; overflow: hidden; padding-top: 5px; float: left;
+}
+.showPart1 .list img {
+	border: 1px solid rgb(225, 225, 225); border-image: none; width: 62px; height: 62px;
+}
+.showPart1 .list .liNow {
+	background: url("../image/showPart1Ico.gif") no-repeat top;
+}
+.showPart1 .list .liNow img {
+	border: 1px solid rgb(255, 147, 54); border-image: none;
+}
+.showPart1 .fxBtn li {
+	width: 190px; overflow: hidden; float: left;
+}
+.showPart1 .fxBtn .fl {
+	background: url("../image/shouchang.gif") no-repeat 65px 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 185px; height: 22px; text-align: center; overflow: hidden; padding-top: 3px; display: block;
+}
+.showPart1 .fxBtn .fl:hover {
+	background: url("../image/shouchang.gif") no-repeat 65px -22px; border: 1px solid rgb(125, 64, 193); border-image: none; color: rgb(125, 64, 193);
+}
+.showPart1 .fxBtn .fx1 {
+	border: 1px solid rgb(225, 225, 225); border-image: none; width: 185px; height: 22px; text-align: center; overflow: hidden; padding-top: 3px;
+}
+.showPart1 .fxBtn .fx1:hover {
+	border: 1px solid rgb(125, 64, 193); border-image: none;
+}
+.showPart2 {
+	width: 705px; overflow: hidden; padding-bottom: 25px;
+}
+.showPart2 .title {
+	padding: 15px 0px; line-height: 30px; font-size: 21px; border-top-color: rgb(225, 225, 225); border-bottom-color: rgb(225, 225, 225); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; position: relative; min-height: 30px; _height: 30px;
+}
+.showPart2 .title .p_title {
+	width: 400px; -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+.showPart2 .title .p_titletip {
+	color: rgb(204, 51, 51); padding-top: 6px; font-size: 18px; font-weight: 100;
+}
+.showPart2 .title dl {
+	top: 10px; right: 0px; position: absolute; z-index: 10;
+}
+.showPart2 .title dd {
+	width: 54px; text-align: center; color: rgb(102, 102, 102); line-height: 18px; font-size: 10px; font-weight: 100; margin-left: 6px; float: left;
+}
+.showPart2 .title dd div {
+	font-size: 10px;
+}
+.showPart2 .tableDiv {
+	margin: 15px 0px; padding: 15px 0px; border-top-color: rgb(225, 225, 225); border-top-width: 1px; border-top-style: solid;
+}
+.showPart2 th {
+	padding: 7px 0px; width: 68px; text-align: left; color: rgb(102, 102, 102);
+}
+.showPart2 td {
+	padding: 7px 0px;
+}
+.showPart2 .price {
+	top: -3px; position: relative;
+}
+.showPart2 .price b {
+	font-family: arial,verdana; font-size: 34px; font-weight: bolder;
+}
+.showPart2 .price2 {
+	text-decoration: line-through;
+}
+.showPart2 .selectDiv {
+	background: url("../image/showIco1.gif") no-repeat 131px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 144px; height: 23px; line-height: 23px; overflow: hidden;
+}
+.showPart2 .msg0 {
+	width: 250px; overflow: hidden;
+}
+.showPart2 .msg1 a {
+	color: rgb(207, 28, 0);
+}
+.showPart2 .list1 li {
+	padding: 1px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 52px; height: 52px; text-align: center; line-height: 52px; overflow: hidden; margin-right: 8px; float: left; position: relative; cursor: pointer;
+}
+.showPart2 .list1 .liNow {
+	padding: 0px; border: 2px solid rgb(255, 147, 54); border-image: none; margin-right: 7px;
+}
+.showPart2 .list1 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; width: 10px; height: 10px; right: 0px; bottom: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.showPart2 .list2 li {
+	padding: 0px 12px; border: 1px solid rgb(225, 225, 225); border-image: none; height: 25px; line-height: 25px; overflow: hidden; margin-top: 2px; margin-right: 8px; margin-bottom: 2px; float: left; white-space: nowrap; position: relative; cursor: pointer;
+}
+.showPart2 .list2 li a {
+	color: rgb(102, 102, 102);
+}
+.showPart2 .list2 .liNow {
+	padding: 0px 11px; border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.showPart2 .list2 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; top: 13px; width: 10px; height: 10px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.showPart2 .inputDiv {
+	background: url("../image/inputDiv.gif") no-repeat left top; width: 78px; height: 31px; overflow: hidden; float: left;
+}
+.showPart2 .inputDiv span {
+	width: 18px; height: 31px; overflow: hidden; float: left; display: block; cursor: pointer;
+}
+.showPart2 .inputDiv input {
+	background: none; padding: 0px; border: 0px currentColor; border-image: none; width: 42px; height: 29px; text-align: center; line-height: 29px; float: left;
+}
+.showPart2 .msg {
+	line-height: 31px; padding-left: 12px;
+}
+.showPart2 .msg2 {
+	line-height: 24px; padding-left: 12px;
+}
+.showPart2 .btnDiv {
+	top: -25px; height: 65px; overflow: hidden; padding-top: 7px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.showPart2 .btn {
+	border: 0px currentColor; border-image: none; width: 168px; height: 43px; margin-right: 10px; float: left; cursor: pointer;
+}
+.showPart2 .btn1 {
+	background: url("../image/showBtn.gif") no-repeat left top;
+}
+.showPart2 .btn2 {
+	background: url("../image/showBtn.gif") no-repeat right top;
+}
+.showPart2 .btn3 {
+	background: url("../image/showBtn1.gif") no-repeat right top;
+}
+.showPart2 .btnst {
+	background: url("../image/btnst12.jpg") no-repeat right top;
+}
+.showPart2 .btnst:hover {
+	background: url("../image/btnst.jpg") no-repeat right top;
+}
+.showPart2 .btn3:hover {
+	background: url("../image/showBtn1Hover.gif") no-repeat right top;
+}
+.showPart2 .btn1:hover {
+	background: url("../image/showBtnHover.gif") no-repeat left top;
+}
+.showPart2 .btn2:hover {
+	background: url("../image/showBtnHover.gif") no-repeat right top;
+}
+.showPart2 .noticeA {
+	background: url("../image/noticeA.gif") no-repeat left; top: 3px; padding-left: 22px; float: left; display: block; position: relative;
+}
+.showPart2 .link {
+	top: -10px; color: rgb(102, 102, 102); position: relative;
+}
+.showPart2 .link a:hover {
+	color: rgb(0, 51, 153);
+}
+.showPart2 .address {
+	background: url("../image/addressIco1.gif") no-repeat left top rgb(112, 207, 53); padding: 1px 8px 0px 11px; height: 24px; color: rgb(255, 255, 255); overflow: hidden; margin-left: 12px; float: left;
+}
+.showPart2 .address a {
+	color: rgb(255, 255, 255); font-weight: bold; text-decoration: underline;
+}
+.showPart2 .address img {
+	top: 2px; margin-left: 5px; position: relative;
+}
+.showPart2 .fxBtn {
+	padding-top: 15px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.showPart2 .fxBtn li {
+	width: 190px; overflow: hidden; float: left;
+}
+.showPart2 .fxBtn .fl {
+	background: url("../image/shouchang.gif") no-repeat 65px 0px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 185px; height: 22px; text-align: center; overflow: hidden; padding-top: 3px; display: block;
+}
+.showPart2 .fxBtn .fl:hover {
+	background: url("../image/shouchang.gif") no-repeat 65px -22px; border: 1px solid rgb(125, 64, 193); border-image: none; color: rgb(125, 64, 193);
+}
+.showPart2 .fxBtn .fx1 {
+	border: 1px solid rgb(225, 225, 225); border-image: none; width: 185px; height: 22px; text-align: center; overflow: hidden; padding-top: 3px;
+}
+.showPart2 .fxBtn .fx2 {
+	border: 1px solid rgb(61, 126, 216); border-image: none; width: 185px; height: 25px; overflow: hidden; display: none;
+}
+.showPart2 .lsDiv {
+	background: url("../image/layer4.png") no-repeat left top; width: 86px; height: 73px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; overflow: hidden; padding-top: 13px; font-weight: bold; position: absolute; z-index: 50;
+}
+.addressSelect {
+	background: url("../image/addressSelect.gif") no-repeat right rgb(255, 255, 255); padding: 0px 23px 0px 10px; border: 1px solid rgb(225, 225, 225); border-image: none; height: 23px; line-height: 23px; float: left; position: relative; z-index: 20; cursor: pointer;
+}
+.addressSelectNow {
+	height: 24px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.addressLayer {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 396px; overflow: hidden; display: none; position: absolute; z-index: 15;
+}
+.addressLayer .tab {
+	height: 24px; overflow: hidden; border-left-color: rgb(191, 191, 191); border-left-width: 1px; border-left-style: solid; position: relative; z-index: 17;
+}
+.addressLayer .tab li {
+	background: url("../image/addressSelect.gif") no-repeat right; border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(191, 191, 191) rgb(191, 191, 191) currentColor currentColor; padding: 0px 23px 0px 11px; border-image: none; height: 22px; line-height: 22px; float: left;
+}
+.addressLayer .tab .liNow {
+	background: url("../image/addressSelect1.gif") no-repeat right rgb(255, 255, 255); border: 1px solid rgb(45, 129, 234); border-image: none; height: 23px; padding-left: 10px;
+}
+.addressLayer .tabContentDiv {
+	padding: 10px 0px 0px 10px; border: 1px solid rgb(45, 129, 234); border-image: none; top: -1px; position: relative; z-index: 16; min-height: 20px; _height: 20px;
+}
+.addressLayer .tabContentDiv li {
+	width: 60px; height: 26px; overflow: hidden; float: left;
+}
+.showDIY {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(225, 225, 225) rgb(225, 225, 225); border-image: none; overflow: hidden; margin-bottom: 20px; position: relative; min-height: 244px;
+}
+.showDIY .title {
+	left: 0px; top: 0px; width: 78px; height: 30px; text-align: center; color: rgb(125, 64, 193); line-height: 30px; overflow: hidden; border-top-color: rgb(125, 64, 193); border-right-color: rgb(255, 255, 255); border-bottom-color: rgb(225, 225, 225); border-top-width: 2px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; position: absolute; z-index: 10;
+}
+.showDIY .div0 {
+	height: 30px; line-height: 30px; overflow: hidden; padding-left: 80px; border-top-color: rgb(131, 131, 131); border-bottom-color: rgb(225, 225, 225); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.showDIY .list {
+	width: 665px; height: auto; overflow: hidden; padding-left: 208px; float: left; position: relative;
+}
+.showDIY .list .colllist {
+	width: 665px; -ms-overflow-x: auto; -ms-overflow-y: hidden;
+}
+.showDIY .list .colllist ul {
+	width: 990px; height: 230px; overflow: hidden; -ms-zoom: 1;
+}
+.showDIY li {
+	padding: 24px 21px 0px 0px; width: 112px; height: 207px; overflow: hidden; float: left; position: relative;
+}
+.showDIY li .imgDiv {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.showDIY li .name {
+	padding: 13px 0px 2px; height: 2.5em; overflow: hidden; -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+.showDIY li .price {
+	padding-top: 3px; padding-left: 4px; font-weight: bold;
+}
+.showDIY li .price .p-price {
+	margin: 0px; padding: 0px;
+}
+.showDIY li .price2 {
+	border-radius: 3px; text-align: center; color: rgb(255, 255, 255); background-color: rgb(221, 221, 221);
+}
+.showDIY li .price input {
+	padding: 0px; margin-top: 2px;
+}
+.showDIYPart1 {
+	background: url("../image/showDIYPart1.gif") no-repeat right 40px; left: 14px; top: 57px; width: 127px; height: 187px; overflow: hidden; padding-right: 34px; float: left; position: absolute; z-index: 10;
+}
+.showDIYPart1 .name {
+	padding: 13px 0px 2px 5px; height: 2.5em; color: rgb(125, 64, 193); overflow: hidden; -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+.showDIYPart1 .price {
+	padding-left: 5px; font-weight: bold;
+}
+.showDIYPart2 {
+	background: url("../image/showDIYPart2.gif") no-repeat left 39px; top: 65px; width: 164px; height: 187px; right: 0px; color: rgb(153, 153, 153); overflow: hidden; padding-left: 60px; position: absolute; z-index: 10;
+}
+.showDIYPart2 .content {
+	padding: 16px 0px; line-height: 25px; float: left;
+}
+.showDIYPart2 .btn {
+	background: url("../image/btn2.gif") repeat-x top; width: 124px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; overflow: hidden; font-size: 14px; font-weight: bold; display: block;
+}
+.showTab {
+	background: url("../image/showTab.gif") repeat-x left 33px rgb(255, 255, 255); height: 43px; overflow: hidden; position: relative;
+}
+.showTab li {
+	background: rgb(245, 245, 245); width: 114px; height: 30px; text-align: center; line-height: 30px; overflow: hidden; font-size: 14px; border-top-color: rgb(131, 131, 131); border-right-color: rgb(225, 225, 225); border-top-width: 2px; border-right-width: 1px; border-top-style: solid; border-right-style: solid; float: left;
+}
+.showTab .liNow {
+	background: rgb(255, 255, 255); border-width: 2px 1px 0px; border-style: solid solid none; border-color: rgb(125, 64, 193) rgb(125, 64, 193) currentColor; border-image: none; height: 32px; color: rgb(125, 64, 193); margin-right: 1px;
+}
+.showTab .a1 {
+	width: 154px; height: 32px; right: 0px; bottom: 9px; overflow: hidden; display: block; position: absolute; z-index: 60;
+}
+.showTabfixed {
+	top: 0px; width: 888px; position: fixed; z-index: 50;
+}
+.showPart3 {
+	width: 888px; overflow: hidden; padding-bottom: 30px; position: relative;
+}
+.showPart3 .title {
+	background: rgb(0, 0, 0); margin: 15px 0px; padding: 0px 10px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 18px;
+}
+.commentPart1 {
+	height: 185px; overflow: hidden; position: relative;
+}
+.commentPart1 .title {
+	left: 0px; top: 0px; width: 78px; height: 30px; text-align: center; line-height: 30px; overflow: hidden; border-top-color: rgb(61, 126, 216); border-right-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 3px; border-top-style: solid; border-right-style: solid; position: absolute; z-index: 10;
+}
+.commentPart1 .div0 {
+	border-width: 2px 1px 0px; border-style: solid solid none; border-color: rgb(131, 131, 131) rgb(225, 225, 225) currentColor; border-image: none; height: 30px; line-height: 30px; overflow: hidden; padding-left: 80px;
+}
+.commentPart1 .listDiv {
+	padding: 25px 0px; border: 1px solid rgb(225, 225, 225); border-image: none; height: 101px; overflow: hidden; position: relative;
+}
+.commentPart1_01 {
+	width: 390px; height: 100px; overflow: hidden; border-right-color: rgb(225, 225, 225); border-right-width: 1px; border-right-style: solid; position: relative;
+}
+.commentPart1_01 .name {
+	height: 28px; line-height: 20px; overflow: hidden; padding-left: 38px;
+}
+.commentPart1_01 .mark {
+	left: 25px; top: 2px; width: 90px; text-align: center; overflow: hidden; font-size: 14px; position: absolute; z-index: 10;
+}
+.commentPart1_01 .mark h1 {
+	top: 8px; color: rgb(61, 126, 216); font-size: 57px; position: relative;
+}
+.commentPart1_01 .list {
+	padding-left: 155px;
+}
+.commentPart1_01 li {
+	height: 26px; overflow: hidden; position: relative;
+}
+.commentPart1_01 li b {
+	color: rgb(153, 153, 153); float: left;
+}
+.commentPart1_01 li span {
+	float: left; display: block;
+}
+.commentPart1_01 li div {
+	background: rgb(225, 225, 225); margin: 0px 6px; top: 4px; width: 132px; height: 9px; overflow: hidden; float: left; position: relative;
+}
+.commentPart1_01 li div span {
+	background: rgb(61, 126, 216); height: 9px; overflow: hidden;
+}
+.commentPart1_02 {
+	width: 440px; overflow: hidden; padding-right: 20px;
+}
+.commentPart1_02 .btnDiv {
+	padding: 15px 0px 0px; height: 32px; line-height: 26px; overflow: hidden;
+}
+.commentPart1_02 .btn {
+	background: url("../image/btn5.gif") repeat-x top; width: 123px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; font-size: 14px; font-weight: bold; margin-right: 10px; float: left; display: block;
+}
+.commentPart1_02 .msg {
+	color: rgb(153, 153, 153);
+}
+.commentPart1_03 {
+	border-width: 1px 1px 2px; border-style: solid; border-color: rgb(225, 225, 225) rgb(225, 225, 225) rgb(193, 193, 193); border-image: none; height: 150px; text-align: center; overflow: hidden;
+}
+.commentPart1_03 h1 {
+	padding: 50px 0px 10px; color: rgb(153, 153, 153); font-size: 20px;
+}
+.commentPart2 {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(225, 225, 225) rgb(225, 225, 225); padding: 0px 28px; border-image: none; min-height: 200px; _height: 200px;
+}
+.commentPart2 li {
+	padding: 22px 0px 22px 75px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid; position: relative; min-height: 90px; _height: 90px;
+}
+.commentPart2 .liNow {
+	border: 0px currentColor; border-image: none;
+}
+.commentPart2 .touxiang {
+	left: 0px; top: 22px; width: 56px; text-align: center; color: rgb(153, 153, 153); overflow: hidden; position: absolute; z-index: 10;
+}
+.commentPart2 .touxiang .imgDiv {
+	border: 1px solid rgb(204, 204, 204); border-image: none; margin-bottom: 6px;
+}
+.commentPart2 .touxiangMsg {
+	background: url("../image/commentLayer2.png") no-repeat right top; left: 50px; top: 18px; width: 332px; height: 89px; overflow: hidden; display: none; position: absolute; z-index: 100;
+}
+.commentPart2 .touxiangMsg .fl {
+	padding: 25px 0px 0px 40px;
+}
+.commentPart2 .touxiangMsg .fr {
+	width: 225px; line-height: 24px; overflow: hidden; padding-top: 8px;
+}
+.commentPart2 .touxiangMsg span {
+	color: rgb(153, 153, 153);
+}
+.commentPart2 .time {
+	top: 22px; right: 0px; color: rgb(153, 153, 153); white-space: nowrap; position: absolute; z-index: 10;
+}
+.commentPart2 .content {
+	padding: 8px 0px; width: 625px; line-height: 20px; font-size: 14px;
+}
+.commentPart2 .btn {
+	background: url("../image/commentIco1.gif") no-repeat left top; height: 16px; right: 0px; bottom: 10px; color: rgb(61, 126, 216); line-height: 16px; overflow: hidden; padding-left: 21px; display: block; position: absolute; z-index: 10;
+}
+.commentPart2 .commentPart2_01 {
+	padding-top: 6px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid; position: relative; min-height: 10px; _height: 10px;
+}
+.commentPart2 .ico {
+	background: url("../image/commentIco2.gif") no-repeat left top; top: 0px; width: 11px; height: 7px; right: 30px; overflow: hidden; position: absolute; z-index: 10;
+}
+.commentPart2 .formDiv {
+	border: 1px solid rgb(173, 200, 237); border-image: none; height: 67px; overflow: hidden; padding-left: 9px; margin-bottom: 8px;
+}
+.commentPart2 .formDiv div {
+	padding: 9px 0px 6px; color: rgb(102, 102, 102);
+}
+.commentPart2 .formDiv .input1 {
+	background: rgb(245, 245, 245); padding: 0px 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 667px; height: 25px; line-height: 25px; margin-right: 6px; float: left;
+}
+.commentPart2 .formDiv .btn1 {
+	background: url("../image/btn9.gif") repeat-x top; border: 1px solid rgb(173, 200, 237); border-image: none; width: 50px; height: 25px; color: rgb(61, 126, 216); line-height: 25px; float: left;
+}
+.commentPart2 .Ask {
+	background: rgb(245, 245, 245); padding: 8px 10px 0px; margin-bottom: 8px;
+}
+.commentPart2 .Answer {
+	background: url("../image/Answer.gif") no-repeat left top rgb(255, 252, 226); padding: 15px 10px 0px 30px; margin-bottom: 8px;
+}
+.commentPart2 .Answer h5 {
+	color: rgb(255, 147, 54);
+}
+.commentPart2 .Answer .content {
+	padding: 4px 0px; color: rgb(102, 102, 102);
+}
+.commentPart2 .Ask .content {
+	padding: 4px 0px; color: rgb(102, 102, 102);
+}
+.commentPart2 .Answer .time1 {
+	text-align: right; color: rgb(153, 153, 153); padding-bottom: 10px;
+}
+.commentPart2 .Ask .time1 {
+	text-align: right; color: rgb(153, 153, 153); padding-bottom: 10px;
+}
+.commentPart2 .Answer a {
+	color: rgb(61, 126, 216);
+}
+.commentPart2 .Ask a {
+	color: rgb(61, 126, 216);
+}
+.commentPageNum {
+	border-width: 0px 1px 2px; border-style: none solid solid; border-color: currentColor rgb(225, 225, 225) rgb(193, 193, 193); padding: 0px 10px; border-image: none; height: 43px; overflow: hidden;
+}
+.commentPageNum .fl {
+	line-height: 43px;
+}
+.commentPageNum .fl a {
+	color: rgb(61, 126, 216);
+}
+.commentPageNum .fr {
+	padding-top: 9px;
+}
+.commentPageNum .fr a {
+	background: url("../image/pageNum.gif") repeat-x top; margin: 0px 2px; padding: 0px 9px; border: 1px solid rgb(224, 224, 224); border-image: none; height: 24px; line-height: 24px; overflow: hidden; float: left; display: block;
+}
+.commentPageNum .fr a:hover {
+	background: none; padding: 0px 8px; border: 2px solid rgb(61, 126, 216); border-image: none; height: 22px; color: rgb(61, 126, 216); line-height: 22px;
+}
+.commentPageNum .fr .aNow {
+	background: none; padding: 0px 8px; border: 2px solid rgb(61, 126, 216); border-image: none; height: 22px; color: rgb(61, 126, 216); line-height: 22px;
+}
+.commentPageNum .fr .aNow {
+	font-weight: bold;
+}
+.commentPageNum .fr span {
+	padding: 0px 12px; height: 37px; line-height: 37px; overflow: hidden; float: left; display: block;
+}
+.commentPageNum .fr input {
+	margin: 0px 2px; padding: 0px; border: 1px solid rgb(224, 224, 224); border-image: none; width: 40px; height: 24px; text-align: center; line-height: 24px; float: left;
+}
+.commentForm {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(225, 225, 225) rgb(225, 225, 225); padding: 10px; border-image: none; margin-bottom: 15px;
+}
+.commentForm .tab2 {
+	height: 28px; border-left-color: rgb(225, 225, 225); border-left-width: 1px; border-left-style: solid; position: relative; z-index: 2;
+}
+.commentForm .tab2 li {
+	background: rgb(246, 246, 246); border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: rgb(225, 225, 225) rgb(225, 225, 225) rgb(225, 225, 225) currentColor; border-image: none; width: 101px; height: 26px; text-align: center; line-height: 26px; overflow: hidden; font-weight: bold; float: left;
+}
+.commentForm .tab2 .liNow {
+	background: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.commentForm .tabContentDiv2 {
+	padding: 15px 10px; top: -1px; border-top-color: rgb(225, 225, 225); border-top-width: 1px; border-top-style: solid; position: relative; z-index: 1;
+}
+.commentForm h5 {
+	padding: 12px 0px 8px; color: rgb(153, 153, 153);
+}
+.commentForm textarea {
+	padding: 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 98%; height: 132px; color: rgb(153, 153, 153); font-size: 14px;
+}
+.commentForm .btn {
+	text-align: center; padding-top: 10px;
+}
+.commentForm .btn1 {
+	background: url("../image/btn5.gif") repeat-x top; border: 0px currentColor; border-image: none; width: 124px; height: 28px; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold;
+}
+.commentForm dl {
+	height: 20px; overflow: hidden; padding-top: 12px;
+}
+.commentForm dt {
+	color: rgb(153, 153, 153); font-weight: bold; float: left;
+}
+.commentForm dd {
+	padding: 0px 50px 0px 6px; float: left;
+}
+.Related {
+	border-width: 2px 1px 1px; border-style: solid; border-color: rgb(131, 131, 131) rgb(225, 225, 225) rgb(225, 225, 225); border-image: none; height: 250px; overflow: hidden; position: relative;
+}
+.Related h2 {
+	height: 30px; line-height: 30px; overflow: hidden; padding-left: 10px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.Related .leftBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related .rightBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related .rightBtn {
+	right: 7px;
+}
+.Related .leftBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related .rightBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related .list {
+	margin: 0px auto; width: 860px; overflow: hidden; padding-top: 15px; position: relative;
+}
+.Related ul {
+	width: 2000%;
+}
+.Related li {
+	padding: 0px 18px; width: 136px; float: left;
+}
+.Related .imgDiv {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.Related .name {
+	padding: 5px 0px;
+}
+.Related .price {
+	font-size: 14px; font-weight: bold;
+}
+.Related2 {
+	height: 255px; overflow: hidden; position: relative;
+}
+.Related2 h2 {
+	height: 35px; line-height: 30px; overflow: hidden; padding-left: 10px;
+}
+.Related2 .leftBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related2 .rightBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related2 .rightBtn {
+	right: 7px;
+}
+.Related2 .leftBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related2 .rightBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related2 .listDiv {
+	border: 1px solid rgb(225, 225, 225); border-image: none; height: 218px; overflow: hidden;
+}
+.Related2 .list {
+	margin: 0px auto; width: 688px; overflow: hidden; padding-top: 15px; position: relative;
+}
+.Related2 ul {
+	width: 2000%;
+}
+.Related2 li {
+	padding: 0px 18px; width: 136px; float: left;
+}
+.Related2 .imgDiv {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.Related2 .name {
+	padding: 5px 0px;
+}
+.Related2 .price {
+	font-size: 14px; font-weight: bold;
+}
+.Related3 {
+	position: relative; min-height: 200px; _height: 200px;
+}
+.Related3 h2 {
+	height: 35px; line-height: 30px; overflow: hidden; padding-left: 10px;
+}
+.Related3 .leftBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related3 .rightBtn {
+	background: rgb(238, 238, 238); top: 6px; width: 17px; height: 17px; text-align: center; right: 29px; color: rgb(255, 255, 255); line-height: 17px; overflow: hidden; font-family: "宋体"; font-weight: bold; display: block; position: absolute; z-index: 10;
+}
+.Related3 .rightBtn {
+	right: 7px;
+}
+.Related3 .leftBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related3 .rightBtn:hover {
+	color: rgb(255, 147, 54);
+}
+.Related3 .listDiv {
+	border: 1px solid rgb(225, 225, 225); border-image: none; height: 345px; overflow: hidden;
+}
+.Related3 .list {
+	margin: 0px auto; width: 675px; overflow: hidden; padding-top: 15px; position: relative;
+}
+.Related3 ul {
+	width: 2000%;
+}
+.Related3 li {
+	padding: 0px 14px; width: 197px; float: left;
+}
+.Related3 .imgDiv {
+	text-align: center;
+}
+.Related3 .name {
+	padding: 8px 0px;
+}
+.Related3 .price {
+	height: 30px; overflow: hidden; font-size: 14px; font-weight: bold;
+}
+.Related3 .a1 {
+	background: rgb(43, 134, 231); width: 105px; height: 23px; text-align: center; color: rgb(255, 255, 255); line-height: 23px; overflow: hidden; font-weight: bold; float: left; display: block;
+}
+.showPart3_1 {
+	border-width: 1px; border-style: solid; border-color: rgb(225, 225, 225) rgb(225, 225, 225) rgb(225, 225, 225); border-image: none; margin-bottom: 10px; min-height: 300px; _height: 300px;
+}
+.showPart3_1 h5 {
+	background: rgb(240, 240, 240); height: 31px; line-height: 30px; padding-left: 7px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.showPart3_1 td {
+	padding: 7px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.showPart3_1 th {
+	padding: 7px; text-align: right; color: rgb(153, 153, 153); border-right-color: rgb(225, 225, 225); border-bottom-color: rgb(225, 225, 225); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.showPart3_2 {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(225, 225, 225) rgb(225, 225, 225) rgb(225, 225, 225); border-image: none; margin-bottom: 10px; min-height: 300px; _height: 300px;
+}
+.showPart3_2 .title {
+	background: rgb(240, 240, 240); height: 31px; line-height: 30px; padding-left: 7px; border-top-color: rgb(225, 225, 225); border-bottom-color: rgb(225, 225, 225); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; position: relative;
+}
+.showPart3_2 .title .more {
+	top: 0px; right: 7px; font-weight: 100; position: absolute; z-index: 10;
+}
+.showPart3_2 .list {
+	padding: 10px 20px;
+}
+.showPart3_2 .list li {
+	padding: 0px 30px 0px 292px; height: 258px; overflow: hidden; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: dotted; position: relative;
+}
+.showPart3_2 .list .imgDiv {
+	left: 0px; top: 39px; position: absolute; z-index: 10;
+}
+.showPart3_2 .list .name {
+	padding: 36px 0px 0px; font-size: 18px;
+}
+.showPart3_2 .list .notice {
+	padding: 15px 0px; color: rgb(153, 153, 153);
+}
+.showPart3_2 .list .content {
+	line-height: 22px;
+}
+.showPart3_2 .list .more {
+	padding: 5px 0px; color: rgb(51, 102, 204); display: inline-block;
+}
+.showPart3_2 .list1 {
+	padding: 40px 0px 0px 20px;
+}
+.showPart3_2 .list1 li {
+	width: 273px; height: 271px; color: rgb(153, 153, 153); overflow: hidden; padding-right: 14px; float: left;
+}
+.showPart3_2 .list1 .name {
+	padding: 8px 0px 5px; font-size: 12px;
+}
+.commentList li {
+	border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; min-height: 100px; _height: 100px;
+}
+.commentList .fl {
+	width: 215px; text-align: center; color: rgb(102, 102, 102); overflow: hidden;
+}
+.commentList .fr {
+	width: 865px; padding-left: 16px; border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+.commentList .name {
+	padding: 10px 0px 6px;
+}
+.commentList h5 {
+	padding: 6px 0px;
+}
+.commentList .content {
+	color: rgb(153, 153, 153); line-height: 22px; padding-bottom: 10px; padding-left: 15px;
+}
+.commentList dl {
+	height: 26px; overflow: hidden;
+}
+.commentList dt {
+	padding-left: 15px; float: left;
+}
+.commentList dd {
+	padding-right: 50px; float: left;
+}
+.commentList textarea {
+	padding: 5px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 96%; height: 123px; color: rgb(153, 153, 153); font-size: 12px;
+}
+.commentList .msg {
+	text-align: right; padding-right: 22px;
+}
+.commentList .btnDiv {
+	top: -5px; height: 26px; overflow: hidden; padding-left: 358px; position: relative;
+}
+.commentList .btn1 {
+	background: url("../image/btn25.gif"); border: 0px currentColor; border-image: none; width: 123px; height: 26px; margin-right: 12px; float: left; cursor: pointer;
+}
+.commentList .tips {
+	background: url("../image/bg22.gif") no-repeat left top rgb(255, 253, 239); padding: 0px 10px 0px 30px; border: 1px solid rgb(254, 226, 161); border-image: none; top: 1px; height: 22px; line-height: 22px; float: left; position: relative;
+}
+.DiyPackageTitle {
+	background: url("../image/DiyPackageTitle.gif") no-repeat left top; height: 32px; color: rgb(255, 120, 15); line-height: 32px; overflow: hidden; padding-left: 10px; font-size: 14px; font-weight: bold;
+}
+.DiyPackage {
+	padding: 9px 0px 0px 9px; border: 1px solid rgb(225, 225, 225); border-image: none; margin-bottom: 15px; min-height: 100px; _height: 100px;
+}
+.DiyPackage .box {
+	background: rgb(255, 253, 239); padding: 14px 0px 0px 14px; border: 1px solid rgb(254, 226, 161); border-image: none; width: 519px; height: 226px; margin-right: 8px; margin-bottom: 8px; float: left; position: relative;
+}
+.DiyPackage .boxNow {
+	background: rgb(255, 243, 217); border: 1px solid rgb(252, 187, 41); border-image: none;
+}
+.DiyPackage .inputDiv {
+	height: 54px; text-align: center; color: rgb(102, 102, 102); overflow: hidden; padding-top: 14px;
+}
+.DiyPackage .inputDiv b {
+	color: rgb(51, 51, 51); padding-left: 12px;
+}
+.DiyPackage .inputDiv a {
+	background: url("../image/btn23.gif") repeat-x top; border: 1px solid rgb(204, 204, 204); border-image: none; width: 16px; height: 29px; text-align: center; line-height: 29px; display: inline-block;
+}
+.DiyPackage .inputDiv input {
+	border-width: 1px 0px; border-style: solid none; border-color: rgb(204, 204, 204) currentColor; padding: 0px; border-image: none; top: 1px; width: 60px; height: 29px; text-align: center; line-height: 29px; position: relative;
+}
+.DiyPackage .btnDiv {
+	height: 68px; text-align: center; overflow: hidden;
+}
+.DiyPackage .btnDiv a {
+	margin: 0px 5px; height: 43px; line-height: 43px; overflow: hidden; font-size: 16px; display: inline-block;
+}
+.DiyPackage .btnDiv .btn1 {
+	background: url("../image/btn22.gif") repeat-x top; width: 180px; color: rgb(255, 255, 255);
+}
+.DiyPackage .btnDiv .btn1:hover {
+	background: url("../image/btn22Hover.gif") repeat-x top;
+}
+.DiyPackage .btnDiv .btn2 {
+	background: url("../image/ico40.gif") no-repeat left; padding: 0px 22px;
+}
+.DiyPackage .imgDiv {
+	border: 1px solid rgb(204, 204, 204); border-image: none; left: 14px; top: 14px; position: absolute; z-index: 1;
+}
+.DiyPackage .imgLayer {
+	background: url("../image/imgBg.gif") no-repeat right top; padding: 1px 1px 0px 10px; left: 130px; top: 14px; width: 384px; height: 380px; text-align: right; overflow: hidden; display: none; position: absolute; z-index: 1;
+}
+.DiyPackage .part1 {
+	padding-left: 132px; min-height: 88px;
+}
+.DiyPackage .part1 h2 {
+	padding: 4px 0px;
+}
+.DiyPackage .list3 {
+	padding-top: 4px;
+}
+.DiyPackage .list2 {
+	padding-top: 4px;
+}
+.DiyPackage .list3 li {
+	background: rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: auto; height: 25px; text-align: center; line-height: 25px; overflow: hidden; margin-top: 2px; margin-right: 8px; margin-bottom: 2px; float: left; white-space: nowrap; position: relative; cursor: pointer;
+}
+.DiyPackage .list3 .liNow {
+	border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.DiyPackage .list3 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; top: 13px; width: 10px; height: 10px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.DiyPackage .boxx {
+	background: rgb(255, 253, 239); padding: 14px 0px 0px 14px; border: 1px solid rgb(254, 226, 161); border-image: none; width: 519px; height: 226px; margin-right: 8px; margin-bottom: 8px; float: left; position: relative;
+}
+.DiyPackage .boxNow {
+	background: rgb(255, 243, 217); border: 1px solid rgb(252, 187, 41); border-image: none;
+}
+.DiyPackage .inputDiv {
+	height: 54px; text-align: center; color: rgb(102, 102, 102); overflow: hidden; padding-top: 14px;
+}
+.DiyPackage .inputDiv b {
+	color: rgb(51, 51, 51); padding-left: 12px;
+}
+.DiyPackage .inputDiv a {
+	background: url("../image/btn23.gif") repeat-x top; border: 1px solid rgb(204, 204, 204); border-image: none; width: 16px; height: 29px; text-align: center; line-height: 29px; display: inline-block;
+}
+.DiyPackage .inputDiv input {
+	border-width: 1px 0px; border-style: solid none; border-color: rgb(204, 204, 204) currentColor; padding: 0px; border-image: none; top: 1px; width: 60px; height: 29px; text-align: center; line-height: 29px; position: relative;
+}
+.DiyPackage .btnDivv {
+	height: 68px; text-align: center; overflow: hidden;
+}
+.DiyPackage .btnDivv a {
+	margin: 0px 5px; height: 43px; line-height: 43px; overflow: hidden; font-size: 16px; display: inline-block;
+}
+.DiyPackage .btnDivv .btn1 {
+	background: url("../image/btn22.gif") repeat-x top; width: 168px; color: rgb(255, 255, 255);
+}
+.DiyPackage .btnDivv .btn1:hover {
+	background: url("../image/btn22Hover.gif") repeat-x top;
+}
+.DiyPackage .btnDivv .btn2 {
+	background: url("../image/ico40.gif") no-repeat left; padding: 0px 22px;
+}
+.DiyPackage .list4 {
+	padding-top: 4px; min-height: 60px;
+}
+.DiyPackage .list5 {
+	padding-top: 4px; min-height: 60px;
+}
+.DiyPackage .list4 li {
+	background: rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: auto; height: 25px; text-align: center; line-height: 25px; overflow: hidden; margin-top: 2px; margin-right: 8px; margin-bottom: 2px; float: left; white-space: nowrap; position: relative; cursor: pointer;
+}
+.DiyPackage .list4 .liNow {
+	border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.DiyPackage .list4 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; top: 13px; width: 10px; height: 10px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.DiyPackage .list5 li {
+	background: rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: auto; height: 25px; text-align: center; line-height: 25px; overflow: hidden; margin-top: 2px; margin-right: 8px; margin-bottom: 2px; float: left; white-space: nowrap; position: relative; cursor: pointer;
+}
+.DiyPackage .list5 .liNow {
+	border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.DiyPackage .list5 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; top: 13px; width: 10px; height: 10px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.DiyPackage .list2 li {
+	background: rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(225, 225, 225); border-image: none; width: auto; height: 25px; text-align: center; line-height: 25px; overflow: hidden; margin-top: 2px; margin-right: 8px; margin-bottom: 2px; float: left; white-space: nowrap; position: relative; cursor: pointer;
+}
+.DiyPackage .list2 .liNow {
+	border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.DiyPackage .list2 .liNow span {
+	background: url("../image/showIco2.gif") no-repeat left top; top: 13px; width: 10px; height: 10px; right: 0px; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+.rate_star {
+	margin: auto; position: relative;
+}
+.rate_star ul {
+	height: 12px; line-height: 12px; float: left; display: inline;
+}
+.rate_star ul {
+	margin: 0px 10px;
+}
+.rate_star li {
+	background: url("../image/goods_star.png") no-repeat; border: 0px currentColor; border-image: none; width: 12px; height: 12px; line-height: 12px; text-indent: -9999px; margin-right: 2px; float: left; cursor: pointer; min-height: 12px;
+}
+.rate_star strong {
+	color: rgb(255, 102, 0); padding-left: 10px;
+}
+.rate_star li.on {
+	background-position: 0px -15px;
+}
+.showPart2 .list2 .liStop {
+	padding: 0px 11px; border: 2px dashed rgb(214, 214, 216); border-image: none; height: 23px; color: rgb(214, 214, 216); line-height: 23px; cursor: not-allowed;
+}
+.showPart2 .list2 .liHover {
+	padding: 0px 11px; border: 2px solid rgb(255, 147, 54); border-image: none; height: 23px; line-height: 23px;
+}
+.showPart2 .list1 .liStop {
+	padding: 0px; border: 2px dashed rgb(214, 214, 216); border-image: none; color: rgb(214, 214, 216); margin-right: 8px; cursor: not-allowed;
+}
+.showPart2 .list1 .liHover {
+	padding: 0px; border: 2px solid rgb(255, 147, 54); border-image: none; margin-right: 8px;
+}
+.commentPageNum .fr .current-prev {
+	background: none; margin: 0px 2px; padding: 0px 9px; border: 1px solid rgb(153, 153, 153); border-image: none; height: 24px; color: rgb(153, 153, 153); line-height: 24px;
+}
+.commentPageNum .fr .current-next {
+	background: none; margin: 0px 2px; padding: 0px 9px; border: 1px solid rgb(153, 153, 153); border-image: none; height: 24px; color: rgb(153, 153, 153); line-height: 24px;
+}
+.commentPageNum .fr a:hover {
+	background: none; padding: 0px 8px; border: 2px solid rgb(61, 126, 216); border-image: none; height: 22px; color: rgb(61, 126, 216); line-height: 22px;
+}
+.commentPageNum .fr .current {
+	background: none; padding: 0px 8px; border: 2px solid rgb(61, 126, 216); border-image: none; height: 22px; color: rgb(61, 126, 216); line-height: 22px;
+}
+.commentPageNum .fr .current {
+	font-weight: bold;
+}
+.showTab li {
+	cursor: pointer;
+}
+.tab2 li {
+	cursor: pointer;
+}
+.wrap_remind {
+	background: rgb(255, 255, 255); padding: 30px 40px; width: 16em;
+}
+.showPart2 .btdeposit {
+	background: url("../image/btn_deposit.jpg") no-repeat left top;
+}
+.showPart2 .btdeposit:hover {
+	background: url("../image/btn_deposit.jpg") no-repeat right top;
+}
+.showPart2 .deposit_price {
+	top: -3px; color: rgb(207, 28, 0); position: relative;
+}
+.showPart2 .deposit_price b {
+	padding-right: 5px; font-family: arial,verdana; font-size: 34px; font-weight: bolder;
+}

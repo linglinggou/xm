@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>
+	会员登陆-易卖商城
+</title><link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+    <script language="javascript" type="text/javascript" src="js/jquery-1.js"></script>
+    <script language="javascript" type="text/javascript" src="js/fun.js"></script>
+</head>
+<body>
+    <form name="form1" method="post" action="login.aspx" id="form1">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0NDY1MjExMzAPFgIeBnVybFJlZgUBL2Rk6KM5a60qZJp2ygEbS50gTe9XZJO5fwEZgckwDWYEzh8=" type="hidden">
+</div>
+    <div class="topDiv" id="top_2014">
+        <div class="wal">
+            <div class="fl">
+                <div class="box_yzb"></div>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li id="LoginName">您好，欢迎来到易卖商城！ <a href="#" class="red" title="登录">[登录]</a>
+                        <a href="zhuce.html" class="red" title="快速注册">[快速注册]</a></li>
+                    <li><a title="我的账户" href="#" target="_blank" class="red">我的账户</a></li>
+                    <li><a href="#" target="_blank" title="每日签到">每日签到</a></li>
+                    <li><a href="#" target="_blank" title="我的订单">我的订单</a></li>
+                    <li><a href="#" title="发货通知" target="_blank">发货通知</a></li>
+                    <li><a href="#" target="_blank" title="帮助中心">帮助中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="topbanner" style="width: 1099px; height: 0px; margin: 2px auto 0px; overfolow: hidden;
+        position: relative; display: none;">
+    </div>
+    <div class="fhsz-top-banner">
+        <div class="banner">
+            <a href="#" title="捷信小额现金贷">
+                <img src="zhuce_img/js1.jpg" style="width: 100%;"></a>
+        </div>
+    </div>
+    <div class="loginHeadDiv">
+        <div class="wal">
+            <a href="#" class="logo">
+                <img src="zhuce_img/logo.gif" alt=""></a>
+            <div class="name">
+                用户登录</div>
+            <div class="link">
+                <a href="index.html" title="易卖商城首页">易卖商城首页</a>|<a href="#" title="帮助中心">帮助中心</a>|<a href="javascript://" title="意见反馈">意见反馈</a></div>
+        </div>
+    </div>
+    <div class="wal loginDiv">
+        <!--wal-->
+        <div class="imgDiv" id="Login_Ad">
+            <img src="zhuce_img/login.jpg"/>
+        </div>
+        <div class="login">
+            <div class="title">
+                还没有易卖手机商城账号？<a href="zhuce.html" class="btn" title="立即注册"><img src="zhuce_img/zc.jpg"></a></div>
+            <div class="ErrorDiv">
+                <div class="Error" id="ErrorTip" style="display: none;">
+                    账号与密码不符，请重新输入。</div>
+            </div>
+            <div class="formDiv">
+                <ul>
+                    <li>
+                        <input name="" id="MemberName" class="input1 " placeholder="用户名" title="用户名" type="text">
+                        <img src="zhuce_img/loginIco1.png" class="ico">
+                    </li>
+                    <li>
+                        <input name="" id="MemberPwd" class="input1" placeholder="密码" title="密码" type="password">
+                        <img src="zhuce_img/loginIco2.png" class="ico">
+                    </li>
+                    <li style="height: 28px;">
+                        <div class="fl">
+                            <input name="" id="AutoLogin" class="checkbox" type="checkbox"><label for="AutoLogin">自动登录</label>
+                        </div>
+                        <div class="fr">
+                            <a href="#" title="忘记密码">忘记密码？</a></div>
+                    </li>
+                    <li class="btnDiv">
+                        <input name="btnLogin" value="登 录" onclick="return LoginVerify();" id="btnLogin" class="btn1" type="submit">
+                    </li>
+                </ul>
+            </div>
+            <div class="div0">
+                <div class="fl">
+                    使用合作网站账号登录</div>
+                <div class="fr">
+                    <a href="javascript://" title="支付宝登录">
+                        <img src="zhuce_img/19img16_1.gif" alt="支付宝登录">支付宝</a> <a href="javascript://" title="QQ登录" target="_top">
+                            <img src="zhuce_img/19img16_2.gif" alt="QQ登录">QQ</a> <a href="javascript://" title="微博登录" target="_top">
+                                <img src="zhuce_img/19img16_3.gif" alt="微博登录">微博</a>
+                </div>
+            </div>
+        </div>
+        <!--walEnd-->
+    </div>
+    <div class="h40">
+    </div>
+    <div class="loginFoot">
+        <div class="div0">
+            Copyright © 2001-2016 易卖手机 版权所有 苏ICP备08009749号
+            
+        </div>
+        <img src="zhuce_img/limg95.jpg" alt="">
+        <img src="zhuce_img/limg93.jpg" alt="">
+        <img src="zhuce_img/limg112.jpg" alt="">
+        <img src="zhuce_img/limg112_1.jpg" alt="">
+    </div>
+    <input name="hiddMemberID" id="hiddMemberID" value="0" type="hidden">
+    <script type="text/javascript">
+        $(function () {
+            $("body").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    $("#btnLogin").click();
+                }
+            });
+            $("#MemberName").blur(function () {
+                var p = $(this).val();
+                var patrn = /^(\w){3,20}$/;
+                if (!patrn.exec(p)) {
+                    $(this).addClass("inputError");
+                    $("#ErrorTip").show().text("请输入正确的用户名！");
+                } else {
+                    $(this).addClass("input_hover");
+                }
+            });
+            $("#MemberName").focus(function () {
+                $(this).removeClass("inputError");
+                $("#ErrorTip").hide().empty();
+            });
+            $("#MemberPwd").blur(function () {
+                var p = $(this).val();
+                if (p == "")
+                    return;
+                var patrn = /^(\w){6,20}$/;
+                if (!patrn.exec(p)) {
+                    $(this).addClass("inputError");
+                    $("#ErrorTip").show().text("请输入6位以上的密码！");
+                } else {
+                    $(this).addClass("input_hover");
+                }
+            });
+            $("#MemberPwd").focus(function () {
+                $(this).removeClass("inputError");
+                $("#ErrorTip").hide().empty();
+            });
+
+        });
+        function LoginVerify() {
+            var UserID = $("#MemberName").val();
+            var patrn = /^(\w){3,20}$/;
+            if (!patrn.exec(UserID)) {
+                $(this).addClass("inputError");
+                $("#ErrorTip").show().text("请输入正确的用户名！");
+                return false;
+            }
+            var UserPwd = $("#MemberPwd").val();
+            if (!/^(\w){6,20}$/.exec(UserPwd)) {
+                $(this).addClass("inputError");
+                $("#ErrorTip").show().text("请输入6位以上的密码！");
+                return false;
+            }
+            var mid = MemberAjax.Login(UserID, UserPwd).value;
+            if (mid == 0) {
+
+                $(this).addClass("inputError");
+                $("#ErrorTip").show().text("用户名或密码错误！");
+                return false;
+            }
+            $("#hiddMemberID").val(mid);
+            return true;
+        }
+    </script>
+    </form>
+
+
+</body></html>

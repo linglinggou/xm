@@ -1,0 +1,57 @@
+
+// cached javascript
+var MemberAjax = {
+Exist:function(name,callback,context){return new ajax_request(this.url + '?_method=Exist&_session=no','name=' + enc(name),callback, context);},
+SendEmailVerify:function(mailTo,code,memberName,callback,context){return new ajax_request(this.url + '?_method=SendEmailVerify&_session=no','mailTo=' + enc(mailTo)+ '\r\ncode=' + enc(code)+ '\r\nmemberName=' + enc(memberName),callback, context);},
+SendMobileVerify:function(mobile,code,memberName,callback,context){return new ajax_request(this.url + '?_method=SendMobileVerify&_session=no','mobile=' + enc(mobile)+ '\r\ncode=' + enc(code)+ '\r\nmemberName=' + enc(memberName),callback, context);},
+VerifySuccess:function(tel,mail,memberName,callback,context){return new ajax_request(this.url + '?_method=VerifySuccess&_session=no','tel=' + enc(tel)+ '\r\nmail=' + enc(mail)+ '\r\nmemberName=' + enc(memberName),callback, context);},
+Login:function(loginName,pwd,callback,context){return new ajax_request(this.url + '?_method=Login&_session=no','loginName=' + enc(loginName)+ '\r\npwd=' + enc(pwd),callback, context);},
+GetMemberPwd:function(memberId,callback,context){return new ajax_request(this.url + '?_method=GetMemberPwd&_session=no','memberId=' + enc(memberId),callback, context);},
+UpdatePwd:function(memberId,newPwd,callback,context){return new ajax_request(this.url + '?_method=UpdatePwd&_session=no','memberId=' + enc(memberId)+ '\r\nnewPwd=' + enc(newPwd),callback, context);},
+CreateOrder:function(MemberId,adressId,expressId,payMethod,accountId,remark,expressCost,pointExchange,toalPrice,callback,context){return new ajax_request(this.url + '?_method=CreateOrder&_session=no','MemberId=' + enc(MemberId)+ '\r\nadressId=' + enc(adressId)+ '\r\nexpressId=' + enc(expressId)+ '\r\npayMethod=' + enc(payMethod)+ '\r\naccountId=' + enc(accountId)+ '\r\nremark=' + enc(remark)+ '\r\nexpressCost=' + enc(expressCost)+ '\r\npointExchange=' + enc(pointExchange)+ '\r\ntoalPrice=' + enc(toalPrice),callback, context);},
+ChangeOrderState:function(orderid,state,callback,context){return new ajax_request(this.url + '?_method=ChangeOrderState&_session=no','orderid=' + enc(orderid)+ '\r\nstate=' + enc(state),callback, context);},
+DeleteFavorite:function(cid,callback,context){return new ajax_request(this.url + '?_method=DeleteFavorite&_session=no','cid=' + enc(cid),callback, context);},
+DeleteFavorites:function(cids,callback,context){return new ajax_request(this.url + '?_method=DeleteFavorites&_session=no','cids=' + enc(cids),callback, context);},
+UpdateHeaderImage:function(MemberId,headerUrl,callback,context){return new ajax_request(this.url + '?_method=UpdateHeaderImage&_session=no','MemberId=' + enc(MemberId)+ '\r\nheaderUrl=' + enc(headerUrl),callback, context);},
+UpdateMemberInfo:function(MemberId,UserName,Sex,Address,qq,birthday,callback,context){return new ajax_request(this.url + '?_method=UpdateMemberInfo&_session=no','MemberId=' + enc(MemberId)+ '\r\nUserName=' + enc(UserName)+ '\r\nSex=' + enc(Sex)+ '\r\nAddress=' + enc(Address)+ '\r\nqq=' + enc(qq)+ '\r\nbirthday=' + enc(birthday),callback, context);},
+SetDefaultAddress:function(MemberId,adrid,callback,context){return new ajax_request(this.url + '?_method=SetDefaultAddress&_session=no','MemberId=' + enc(MemberId)+ '\r\nadrid=' + enc(adrid),callback, context);},
+DeleteAddress:function(adrid,callback,context){return new ajax_request(this.url + '?_method=DeleteAddress&_session=no','adrid=' + enc(adrid),callback, context);},
+UpdateAddressInfo:function(MemberId,ArrivalID,name,tel,address,phone,province,city,district,zip,isdefault,callback,context){return new ajax_request(this.url + '?_method=UpdateAddressInfo&_session=no','MemberId=' + enc(MemberId)+ '\r\nArrivalID=' + enc(ArrivalID)+ '\r\nname=' + enc(name)+ '\r\ntel=' + enc(tel)+ '\r\naddress=' + enc(address)+ '\r\nphone=' + enc(phone)+ '\r\nprovince=' + enc(province)+ '\r\ncity=' + enc(city)+ '\r\ndistrict=' + enc(district)+ '\r\nzip=' + enc(zip)+ '\r\nisdefault=' + enc(isdefault),callback, context);},
+url:'/ajax/MemberAjax,App_Code.sivbdcxe.ashx'
+}
+function HtmlControl(id) {
+	var ele = null;
+	if(typeof(id) == 'object') ele = id; else ele = document.getElementById(id);
+	if(ele == null) return null;
+	var _o = ele.cloneNode(true);
+	var _op = document.createElement('SPAN');
+	_op.appendChild(_o);	
+	this._source = _op.innerHTML;
+}
+HtmlControl.prototype.toString = function(){ return this._source; }
+
+function HtmlControlUpdate(func, parentId) {
+var f,i,ff,fa='';
+var ele = document.getElementById(parentId);
+if(ele == null) return;
+var args = [];
+for(i=0; i<HtmlControlUpdate.arguments.length; i++)
+	args[args.length] = HtmlControlUpdate.arguments[i];
+if(args.length > 2)
+	for(i=2; i<args.length; i++){fa += 'args[' + i + ']';if(i < args.length -1){ fa += ','; }}
+f = '{"invoke":function(args){return ' + func + '(' + fa + ');}}';
+ff = null;eval('ff=' + f + ';');
+if(ff != null && typeof(ff.invoke) == 'function')
+{
+	var res = ff.invoke(args);
+	if(res.error != null){alert(res.error);return;}
+	ele.innerHTML = res.value;
+}
+}
+function TimeSpan(){this.Days=0;this.Hours=0;this.Minutes=0;this.Seconds=0;this.Milliseconds=0;}
+TimeSpan.prototype.toString = function(){return this.Days+'.'+this.Hours+':'+this.Minutes+':'+this.Seconds+'.'+this.Milliseconds;}
+function AjaxImage(url){var img=new Image();img.src=url;return img;}
+function digi(v, c){v = v + "";var n = "0000";if(v.length < c) return n.substr(0, c-v.length) + v;return v;}
+function DateTime(year,month,day,hours,minutes,seconds){if(year>9999||year<1970||month<1||month>12||day<0||day>31||hours<0||hours>23||minutes<0||minutes>59||seconds<0||seconds>59)throw("ArgumentException");this.Year = year;this.Month = month;this.Day = day;this.Hours = hours;this.Minutes = minutes;this.Seconds = seconds;}
+DateTime.prototype.toString = function(){return digi(this.Year,4) + digi(this.Month,2) + digi(this.Day,2) + digi(this.Hours,2) + digi(this.Minutes,2) + digi(this.Seconds,2);}
+function _getTable(n,e){for(var i=0; i<e.Tables.length; i++){if(e.Tables[i].Name == n)return e.Tables[i];}return null;}

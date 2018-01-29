@@ -1,0 +1,153 @@
+﻿
+.input1{float:left; width:263px; height:33px; line-height:33px; padding:0 5px; border:#ccc solid 1px; color:#999;}
+.inputNow{border:#3c7ed8 solid 1px; font-weight:bold; color:#333;}
+.inputError{border:#cc3333 solid 1px; font-weight:bold; color:#cc3333;}
+.btn1{background:url(../image/btn5.gif) top repeat-x; height:28px; border:0px; font-size:14px; color:#FFF; width:100%; cursor:pointer;}
+/**/
+.formTips{float:left; width:265px; height:33px; line-height:33px; overflow:hidden; border:#e9e9e9 solid 1px; padding-left:27px; margin-left:5px; background:url(../image/formTips1.gif) 6px center no-repeat;}
+.formTipsError{color:#c33; background:url(../image/formTips2.gif) 6px center no-repeat;}
+.formTipsNull{color:#333; background:url(../image/formTips2.gif) 6px center no-repeat;}
+.formTipsOK{float:left; width:30px; height:35px; overflow:hidden; background:url(../image/formTips3.gif) 6px center no-repeat;}
+/**/
+.selectDiv{float:left; width:273px; height:24px; line-height:24px; border:#bababa solid 1px; background:#fff url(../image/selectIco.gif) right top no-repeat; position:relative; top:5px;}
+/**/
+.passStrength{float:left; padding-left:5px;}
+.passStrength span, .passStrength i{display:inline-block;}
+.passStrength i{height:17px; line-height:17px; padding:0 15px; margin-left:2px; color:#FFF; font-style:inherit;}
+.passStrength .i1{background:#2a9bff;}
+.passStrength .i2{background:#279aff;}
+.passStrength .i3{background:#a3d5ff;}
+
+.loginHeadDiv{height:120px; overflow:hidden; border-bottom:#f0f0f0 solid 3px;}
+.loginHeadDiv .wal{height:101px; overflow:hidden; position:relative;}
+.loginHeadDiv .logo{position:absolute; z-index:10; left:10px; top:13px;}
+.loginHeadDiv .name{position:absolute; z-index:10; left:236px; top:44px; height:42px; line-height:40px; padding-left:16px; overflow:hidden; border-left:#ebebeb solid 1px; font-size:24px; color:#ccc; white-space:nowrap; letter-spacing:2px;}
+.loginHeadDiv .link{position:absolute; z-index:10; right:70px; top:45px; color:#666;}
+.loginHeadDiv .link a{padding:0 9px;}
+
+.loginFoot{text-align:center; border-top:#f0f0f0 solid 3px; height:131px; overflow:hidden;}
+.loginFoot .div0{padding:12px 0;}
+.loginFoot img{margin:0 6px;}
+
+.loginDiv{height:530px; overflow:hidden; position:relative; background:url(../image/login.jpg) no-repeat left top;}
+.loginDiv .imgDiv{position:absolute; z-index:1; left:40px; top:50px;}
+.login{position:absolute; z-index:2; right:75px; top:55px; border:#d7d7d7 solid 1px; background:#FFF; width:420px;}
+.login .title{border-bottom:#ebebeb solid 1px; position:relative; height:52px; line-height:52px; padding-left:74px; color:#ff8a00; overflow:hidden; /*background:url(../image/19ico.gif) 16px center no-repeat;*/}
+.login .title img {
+	position:absolute; z-index:10; top:16px; left:222px; }
+
+.login .ErrorDiv{height:40px; overflow:hidden;}
+.login .Error{color:#cc3333; border-bottom:#cc3333 solid 1px; background:#fff4f4 url(../image/loginIco1.gif) 14px center no-repeat; padding-left:32px; height:30px; line-height:30px; overflow:hidden;}
+.login .formDiv{width:275px; overflow:hidden; margin:0 auto; position:relative;}
+.login .formDiv li{height:48px; overflow:hidden; position:relative;}
+.login .ico{position:absolute; z-index:10; top:8px; right:8px;}
+.login .checkbox{float:left; position:relative; top:-1px;}
+.login .formDiv .btnDiv{height:75px; overflow:hidden;}
+.login .div0{padding:0 30px; height:38px; line-height:38px; overflow:hidden; background:#f4f4f4;}
+.login .div0 a{float:left; display:block; padding:0 10px 0 8px; background:url(../image/loginBg1.gif) right center no-repeat; color:#3c7ed8;}
+.login .div0 img{float:left; position:relative; top:12px; margin-right:5px;}
+
+.ForgotStep1{background:url(../image/ForgotStep1.gif) left top no-repeat;}
+.ForgotStep2{background:url(../image/ForgotStep2.gif) left top no-repeat;}
+.ForgotStep3{background:url(../image/ForgotStep3.gif) left top no-repeat;}
+.ForgotStep4{background:url(../image/ForgotStep4.gif) left top no-repeat;}
+.ForgotStep{height:45px; overflow:hidden;}
+
+.regStep1{background:url(../image/regStep1.gif) left top no-repeat;}
+.regStep2{background:url(../image/regStep2.gif) left top no-repeat;}
+.regStep3{background:url(../image/regStep3.gif) left top no-repeat;}
+.regStep{height:45px; overflow:hidden;}
+
+.Forgot{border:#d8d8d8 solid 1px; min-height:300px; _height:300px; padding:90px 0;}
+.Forgot .formDiv li{height:58px; overflow:hidden; position:relative; padding-left:410px; line-height:35px;}
+.Forgot .formDiv .name{position:absolute; z-index:10; left:0px; top:0px; font-size:14px; font-weight:bold; color:#a6a6a6; width:395px; text-align:right;}
+.Forgot .btn1{width:275px;}
+.Forgot .lzm{position:relative; top:-10px;}
+.Forgot .lzm .imgDiv{border:#ccc solid 1px;}
+.Forgot .lzm .btn{height:35px; overflow:hidden; margin-left:17px; padding-left:17px; border-left:#d8d8d8 dotted 1px;}
+.Forgot .lzm a{background:url(../image/19img14.gif) right center no-repeat; padding-right:20px;}
+.Forgot .btn2{display:block; width:119px; height:33px; line-height:33px; text-align:center; overflow:hidden; border:#d8d8d8 solid 1px; background:url(../image/loginBtn2.gif) top repeat-x; margin-left:65px;}
+.Forgot .btn2_1{background:url(../image/loginBtn3.gif) top repeat-x;}
+
+.ForgotStep4Div{padding-left:445px;}
+.ForgotStep4Div .imgDiv{position:relative; left:-50px; top:33px;}
+.ForgotStep4Div h1{font-size:22px; font-weight:100;}
+.ForgotStep4Div .content{padding:8px 0 20px 0; color:#666;}
+.ForgotStep4Div .btn{display:block; background:url(../image/loginBtn4.gif) top repeat-x; height:43px; line-height:42px; width:180px; text-align:center; overflow:hidden; color:#FFF; font-size:16px; font-weight:bold; color:#FFF;}
+
+.regDiv{border:#d8d8d8 solid 1px; min-height:200px; _height:200px; padding:90px 0;}
+.regDiv .formDiv{width:720px; overflow:hidden;}
+.regDiv .formDiv li{height:58px; overflow:hidden; position:relative; padding-left:125px; line-height:35px;}
+.regDiv .formDiv .name{position:absolute; z-index:10; left:0px; top:0px; font-size:14px; font-weight:bold; color:#a6a6a6; width:115px; text-align:right;}
+.regDiv .btn1{width:275px;}
+.regDiv .ico{position:absolute; z-index:10; top:8px; left:370px;}
+.regDiv .formDiv .li_01{height:90px; overflow:hidden;}
+.regDiv .formDiv .li_01 .formTips{margin-left:0px;}
+.regDiv .btn2{display:block; float:left; cursor:pointer; width:119px; height:33px; line-height:33px; text-align:center; overflow:hidden; border:#d8d8d8 solid 1px; background:url(../image/loginBtn2.gif) top repeat-x; margin-left:5px;}
+.regDiv .btn2_1{background:url(../image/loginBtn3.gif) top repeat-x;}
+.regDiv .btn{height:35px; overflow:hidden; margin-left:17px; padding-left:17px; border-left:#d8d8d8 dotted 1px;}
+.regDiv .btn a{background:url(../image/19img14.gif) right center no-repeat; padding-right:20px;}
+
+.regTel{width:316px; padding:0 17px; overflow:hidden; position:relative; right:40px;}
+.regTel .imgDiv{text-align:center; padding:28px 0 10px 0;}
+.regTel h1{padding-bottom:12px; text-align:center; border-bottom:#eee solid 2px;}
+.regTel .content{padding:12px 15px 20px 15px; text-align:center; color:#999;}
+.regTel .content b{font-size:24px; color:#ff7700;}
+
+.reg3Part1 .content{text-align:center; color:#333; height:65px; line-height:43px; overflow:hidden; padding-left:350px;}
+.reg3Part1 .content img{float:left; position:relative; top:6px;}
+.reg3Part1 .content h1{float:left; font-size:22px; padding:0 6px;}
+.reg3Part1 .content a{display:block; float:left; background:url(../image/btn11.gif) top repeat-x; width:180px; height:43px; overflow:hidden; color:#FFF; font-size:16px; font-weight:bold;}
+/**/
+.reg3Part1 .list{color:#999; padding:0px 0 80px 385px;}
+.reg3Part1 .list li{height:25px; line-height:25px; overflow:hidden; padding-left:9px; background:url(../image/ico21.gif) left center no-repeat;}
+
+.reg3Part2{border-top:#ebebeb solid 1px; height:160px; overflow:hidden; background:#fffbed;}
+.reg3Part2 .content{padding:22px 0 22px 70px;}
+.reg3Part2 .list{width:1097px; overflow:hidden; position:relative;}
+.reg3Part2 ul{width:110%;}
+.reg3Part2 li{float:left; width:370px; height:54px; overflow:hidden; position:relative; background:url(../image/reg3Part2.gif) right 3px no-repeat;}
+.reg3Part2 li .imgDiv{position:absolute; z-index:10; left:65px; top:0px;}
+.reg3Part2 .name{padding:8px 0 0 148px; max-height:3em;}
+.reg3Part2 .name a{display:block; background:url(../image/reg3Part2Btn.gif) left top no-repeat; width:153px; height:36px; line-height:36px; text-align:center; overflow:hidden; font-size:16px;}
+
+/*2014-2-24*/
+.login1{width:534px; padding:30px 0 30px 44px; position:relative; overflow:hidden; margin:0px auto;}
+.login1 .ico{position:absolute; top:30px; left:0px;}
+.login1 .msg{font-size:14px; font-weight:bold; color:#b4b4b4; line-height:22px;}
+.login1 a{display:inline-block; padding:0 15px; color:#3c7ed8; font-size:12px;}
+.login1 .msg img{float:left; position:relative; top:3px; padding-right:3px;}
+/**/
+.login1Form{width:780px; height:437px; background:url(../image/lbg.png) left top no-repeat; margin:0px auto; overflow:hidden;}
+.login1Form .title{padding:37px 0 0 145px; background:url(../image/limg48.png) 92px 18px no-repeat; color:#333; height:30px; overflow:hidden; border-bottom:#ebebeb solid 1px; margin:0 12px; font-size:14px;}
+.login1Form .form{padding-top:20px;}
+.login1Form li{height:57px; line-height:35px; position:relative; padding-left:144px;}
+.login1Form .name{width:134px; text-align:right; position:absolute; left:0px; top:0px; font-size:14px; color:#a6a6a6; font-weight:bold;}
+.login1Form span{padding-right:4px; position:relative; top:5px; font-size:18px;}
+.login1Form .ico{position:absolute; left:395px; top:8px;}
+.login1Form .btn1{border:0px; background:url(../image/lbtn.gif) left top no-repeat; width:275px; height:31px; float:left; cursor:pointer;}
+.login1Form .blue{padding-left:18px;}
+.login1Form .li_01{line-height:20px; height:50px;}
+.login1Form .checkbox{position:relative; left:-2px; top:2px;}
+/**/
+.login1Form1{width:444px; height:359px; background:url(../image/lbg1.png) left top no-repeat; margin:0px auto; overflow:hidden;}
+.login1Form1 .title{padding:40px 0 0 125px; background:url(../image/lico4.png) 73px 20px no-repeat; color:#333; height:33px; overflow:hidden; border-bottom:#ebebeb solid 1px; margin:0 12px; font-size:14px;}
+.login1Form1 .ErrorDiv{height:40px; overflow:hidden; padding:0 12px;}
+.login1Form1 .Error{color:#cc3333; border-bottom:#cc3333 solid 1px; background:#fff4f4 url(../image/loginIco1.gif) 14px center no-repeat; padding-left:32px; height:30px; line-height:30px; overflow:hidden;}
+.login1Form1 .form{padding-top:13px; color:#646464;}
+.login1Form1 li{height:46px; width:275px; overflow:hidden; line-height:35px; position:relative; padding-left:73px;}
+.login1Form1 .ico{position:absolute; left:324px; top:8px;}
+.login1Form1 .btn1{border:0px; background:url(../image/lbtn1.png) left top no-repeat; width:275px; height:31px; float:left; overflow:hidden; cursor:pointer;}
+.login1Form1 .blue{color:#005aa0; text-align:center; display:block;}
+.login1Form1 .div0{float:right; color:#646464;}
+.login1Form1 .li_01{line-height:20px; height:35px;}
+.login1Form1 .checkbox{position:relative; left:-2px; top:2px;}
+
+
+
+
+
+
+
+
+

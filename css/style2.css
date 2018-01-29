@@ -1,0 +1,111 @@
+.sideClass li a:hover {
+	background: rgb(61, 126, 216);
+}
+.sideClass li .aNow {
+	background: rgb(61, 126, 216);
+}
+.classSearch {
+	border-top-color: rgb(61, 126, 216); border-top-width: 2px; border-top-style: solid;
+}
+.classSearch .content {
+	padding-left: 130px;
+}
+.classSearch .content .aNow {
+	background: url("../image/close2.gif") no-repeat right top rgb(61, 126, 216);
+}
+.classSearch .list .a1 {
+	background: rgb(61, 126, 216); left: 85px;
+}
+.classSearch .content a {
+	margin-right: 25px;
+}
+.classSearch .content .aNow {
+	margin-right: 9px;
+}
+.Sequence {
+	background: url("../image/Sequence1.gif") repeat-x left bottom rgb(249, 249, 249);
+}
+.Sequence .li_01 .aNow {
+	border: 1px solid rgb(61, 126, 216); border-image: none; color: rgb(61, 126, 216);
+}
+.Sequence .li_03 .aNow {
+	border: 1px solid rgb(61, 126, 216); border-image: none; color: rgb(61, 126, 216);
+}
+.Sequence .li_01 .aNow span {
+	background: url("../image/ico11Hover1.gif") no-repeat right;
+}
+.Sequence .li_03 .a1.aNow {
+	background: url("../image/ico12Hover1.gif") no-repeat 10px;
+}
+.Sequence .li_03 .a2.aNow {
+	background: url("../image/ico13Hover1.gif") no-repeat 10px;
+}
+.Sequence .tab1 .liNow {
+	border: 1px solid rgb(61, 126, 216); border-image: none; color: rgb(61, 126, 216);
+}
+.Sequence .tab1 .liNow a {
+	color: rgb(61, 126, 216);
+}
+.rightBtn2 a {
+	background: rgb(118, 164, 228);
+}
+.rightBtn2 .a1 {
+	background: rgb(118, 164, 228);
+}
+.rightBtn1 a {
+	background: rgb(216, 229, 247);
+}
+.rightBtn1 a:hover {
+	background: rgb(118, 164, 228);
+}
+.pageNum a:hover {
+	border: 2px solid rgb(61, 126, 216); border-image: none; color: rgb(61, 126, 216);
+}
+.pageNum .aNow {
+	border: 2px solid rgb(61, 126, 216); border-image: none; color: rgb(61, 126, 216);
+}
+.showPart1 .fxBtn .fl:hover {
+	background: url("../image/shouchang.gif") no-repeat 65px -44px; border: 1px solid rgb(255, 0, 102); border-image: none; color: rgb(255, 0, 102);
+}
+.showDIY .title {
+	color: rgb(255, 147, 54); border-top-color: rgb(255, 147, 54); border-top-width: 2px; border-top-style: solid;
+}
+.showDIYPart1 .name {
+	color: rgb(255, 147, 54);
+}
+.showTab {
+	background: url("../image/showTab3.gif") repeat-x left 33px rgb(255, 255, 255);
+}
+.showTab .liNow {
+	border-top:2px #ff9336 solid;
+	border-left:1px #ff9336 solid;
+	border-right:1px #ff9336 solid;
+	border-bottom:none;
+	
+	border-image: none; 
+	color: rgb(255, 147, 54);
+}
+.showPart3 {
+	padding: 10px; border: 1px solid rgb(225, 225, 225); border-image: none; width: 866px; margin-bottom: 15px;
+}
+.showPart3 p {
+	margin: 0px auto 14px; padding-bottom: 10px;
+}
+.showPart3 img {
+	width: 860px;
+}
+.showTab .a1 {
+	background: url("../image/img154_3.gif") no-repeat left top;
+}
+.sideConsulting {
+	background: url("../image/img201_1.gif") no-repeat left top;
+}
+.youFind {
+	background: rgb(235, 242, 254); height: 32px; overflow: hidden; padding-left: 15px; margin-bottom: 10px;
+}
+.youFind span {
+	height: 32px; line-height: 32px; overflow: hidden; display: inline-block;
+}
+.youFind a {
+	background: url("../image/ico36.gif") no-repeat right; padding: 0px 12px 0px 10px; height: 32px; line-height: 32px; overflow: hidden; display: inline-block;
+}
